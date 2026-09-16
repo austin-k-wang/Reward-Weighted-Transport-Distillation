@@ -3,7 +3,8 @@
 This repository implements Reward-Weighted Transport Distillation (RWTD) for
 online alignment of the one-step SANA-Sprint 1.6B text-to-image model. It
 includes reproducible GenEval and Parti-Prompts evaluation, GenEval-reward
-training, and HPS v2.1-reward training.
+training, and HPS v2.1-reward training. The codebase is built on top of the
+[SANA repository](https://github.com/NVlabs/SANA).
 
 The HuggingFace collection containing the GenEval and HPSv2 post-trained checkpoints is [here](https://huggingface.co/collections/austin-k-wang/reward-weighted-transport-distillation-models). Instructions below show how to load in the checkpoints and run inference.
 
