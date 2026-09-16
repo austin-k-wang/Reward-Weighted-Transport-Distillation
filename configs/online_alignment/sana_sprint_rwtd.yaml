@@ -1,0 +1,93 @@
+model:
+  config_path: /opt/tiger/rwtd/Sana/configs/sana_sprint_config/1024ms/SanaSprint_1600M_1024px_allqknorm_bf16_scm_ladd.yaml
+  checkpoint_path: /opt/tiger/rwtd/models/Sana_Sprint_1.6B_1024px/checkpoints/Sana_Sprint_1.6B_1024px.pth
+  text_encoder_path: Efficient-Large-Model/gemma-2-2b-it
+  vae_path: mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+  local_files_only: true
+  resolution: 1024
+  guidance_scale: 4.5
+  num_inference_steps: 1
+  rollout_chunk_size: 2
+  decode_chunk_size: 1
+  gradient_checkpointing: true
+
+lora:
+  rank: 32
+  alpha: 32
+  dropout: 0.0
+  target_modules:
+    - attn.qkv
+    - attn.proj
+    - cross_attn.q_linear
+    - cross_attn.kv_linear
+    - cross_attn.proj
+  init_weights: gaussian
+
+reward:
+  enabled: true
+  model_path: /opt/tiger/rwtd/models/PickScore_v1
+  processor_path: /opt/tiger/rwtd/models/PickScore_v1
+  batch_size: 2
+  dtype: float32
+
+features:
+  enabled: true
+  model_path: /opt/tiger/rwtd/models/facebook-dinov2-base
+  names:
+    - cls
+    - patch_mean
+    - patch_std
+  dtype: float32
+
+objective:
+  name: rwtd
+  current_samples: 2
+  reference_samples: 2
+  matched_noise: false
+  feature_weights:
+    - 1.0
+    - 1.0
+    - 1.0
+
+rwtd:
+  coupling: sinkhorn
+  sinkhorn_target: barycentric
+  stochastic_transport: false
+  reward_temperature: 0.5
+  reward_mean: 22.750921844734865
+  reward_scale: 1.3179402679581071
+  mass_floor: 0.10
+  reference_fraction: 0.15
+  transport_step: 0.20
+  ot_regularization_scale: 0.10
+  minimum_ot_epsilon: 1.0e-4
+  sinkhorn_iterations: 100
+  sinkhorn_tolerance: 1.0e-5
+  displacement_clip: null
+  feature_stats_path: null
+
+optimizer:
+  learning_rate: 1.0e-5
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 0.0
+  epsilon: 1.0e-8
+  max_grad_norm: 1.0
+  scheduler: constant
+  warmup_steps: 0
+
+runtime:
+  prompt_file: /opt/tiger/rwtd/data/pickscore/sfw_train.txt
+  train_batch_size: 1
+  max_train_steps: 5000
+  gradient_accumulation_steps: 8
+  dataloader_num_workers: 0
+  mixed_precision: bf16
+  seed: 42
+
+logging:
+  output_dir: /opt/tiger/rwtd/outputs/sana-sprint-alignment/rwtd
+  logging_steps: 1
+  checkpointing_steps: 100
+  report_to: tensorboard
+  resume_from_checkpoint: null

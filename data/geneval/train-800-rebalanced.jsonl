@@ -1,0 +1,800 @@
+{"prompt":"a photo of a yellow orange and a green handbag","tag":"color_attr","include":[{"class":"orange","count":1,"color":"yellow"},{"class":"handbag","count":1,"color":"green"}]}
+{"prompt":"a photo of a yellow dog","tag":"colors","include":[{"class":"dog","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a white fork and a green traffic light","tag":"color_attr","include":[{"class":"fork","count":1,"color":"white"},{"class":"traffic light","count":1,"color":"green"}]}
+{"prompt":"a photo of a frisbee and a tennis racket","tag":"two_object","include":[{"class":"frisbee","count":1},{"class":"tennis racket","count":1}]}
+{"prompt":"a photo of four laptops","tag":"counting","include":[{"class":"laptop","count":4}],"exclude":[{"class":"laptop","count":5}]}
+{"prompt":"a photo of a microwave and a bear","tag":"two_object","include":[{"class":"microwave","count":1},{"class":"bear","count":1}]}
+{"prompt":"a photo of a white giraffe and a red kite","tag":"color_attr","include":[{"class":"giraffe","count":1,"color":"white"},{"class":"kite","count":1,"color":"red"}]}
+{"prompt":"a photo of a red pizza and a white carrot","tag":"color_attr","include":[{"class":"pizza","count":1,"color":"red"},{"class":"carrot","count":1,"color":"white"}]}
+{"prompt":"a photo of an orange horse and a green tie","tag":"color_attr","include":[{"class":"horse","count":1,"color":"orange"},{"class":"tie","count":1,"color":"green"}]}
+{"prompt":"a photo of a red donut and an orange toothbrush","tag":"color_attr","include":[{"class":"donut","count":1,"color":"red"},{"class":"toothbrush","count":1,"color":"orange"}]}
+{"prompt":"a photo of a red backpack and an orange bird","tag":"color_attr","include":[{"class":"backpack","count":1,"color":"red"},{"class":"bird","count":1,"color":"orange"}]}
+{"prompt":"a photo of a surfboard left of a hair drier","tag":"position","include":[{"class":"hair drier","count":1},{"class":"surfboard","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a blue knife and a black airplane","tag":"color_attr","include":[{"class":"knife","count":1,"color":"blue"},{"class":"airplane","count":1,"color":"black"}]}
+{"prompt":"a photo of a parking meter and a kite","tag":"two_object","include":[{"class":"parking meter","count":1},{"class":"kite","count":1}]}
+{"prompt":"a photo of three elephants","tag":"counting","include":[{"class":"elephant","count":3}],"exclude":[{"class":"elephant","count":4}]}
+{"prompt":"a photo of a bicycle above a bench","tag":"position","include":[{"class":"bench","count":1},{"class":"bicycle","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a scissors left of a donut","tag":"position","include":[{"class":"donut","count":1},{"class":"scissors","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a bench and a baseball bat","tag":"two_object","include":[{"class":"bench","count":1},{"class":"baseball bat","count":1}]}
+{"prompt":"a photo of a green dog and a yellow toaster","tag":"color_attr","include":[{"class":"dog","count":1,"color":"green"},{"class":"toaster","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a red book","tag":"colors","include":[{"class":"book","count":1,"color":"red"}]}
+{"prompt":"a photo of a yellow motorcycle and a green boat","tag":"color_attr","include":[{"class":"motorcycle","count":1,"color":"yellow"},{"class":"boat","count":1,"color":"green"}]}
+{"prompt":"a photo of a sheep below a suitcase","tag":"position","include":[{"class":"suitcase","count":1},{"class":"sheep","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a white oven and a blue donut","tag":"color_attr","include":[{"class":"oven","count":1,"color":"white"},{"class":"donut","count":1,"color":"blue"}]}
+{"prompt":"a photo of a kite and a tennis racket","tag":"two_object","include":[{"class":"kite","count":1},{"class":"tennis racket","count":1}]}
+{"prompt":"a photo of a dog and a cow","tag":"two_object","include":[{"class":"dog","count":1},{"class":"cow","count":1}]}
+{"prompt":"a photo of a skateboard above a tv","tag":"position","include":[{"class":"tv","count":1},{"class":"skateboard","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a kite right of a bus","tag":"position","include":[{"class":"bus","count":1},{"class":"kite","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of four wine glasses","tag":"counting","include":[{"class":"wine glass","count":4}],"exclude":[{"class":"wine glass","count":5}]}
+{"prompt":"a photo of two cell phones","tag":"counting","include":[{"class":"cell phone","count":2}],"exclude":[{"class":"cell phone","count":3}]}
+{"prompt":"a photo of a sink and a pizza","tag":"two_object","include":[{"class":"sink","count":1},{"class":"pizza","count":1}]}
+{"prompt":"a photo of a cup above a baseball bat","tag":"position","include":[{"class":"baseball bat","count":1},{"class":"cup","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a handbag and an airplane","tag":"two_object","include":[{"class":"handbag","count":1},{"class":"airplane","count":1}]}
+{"prompt":"a photo of a brown baseball glove and a purple frisbee","tag":"color_attr","include":[{"class":"baseball glove","count":1,"color":"brown"},{"class":"frisbee","count":1,"color":"purple"}]}
+{"prompt":"a photo of three parking meters","tag":"counting","include":[{"class":"parking meter","count":3}],"exclude":[{"class":"parking meter","count":4}]}
+{"prompt":"a photo of a black tie and a green knife","tag":"color_attr","include":[{"class":"tie","count":1,"color":"black"},{"class":"knife","count":1,"color":"green"}]}
+{"prompt":"a photo of a book above a teddy bear","tag":"position","include":[{"class":"teddy bear","count":1},{"class":"book","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a green sandwich and a purple cup","tag":"color_attr","include":[{"class":"sandwich","count":1,"color":"green"},{"class":"cup","count":1,"color":"purple"}]}
+{"prompt":"a photo of a bird and a baseball bat","tag":"two_object","include":[{"class":"bird","count":1},{"class":"baseball bat","count":1}]}
+{"prompt":"a photo of two persons","tag":"counting","include":[{"class":"person","count":2}],"exclude":[{"class":"person","count":3}]}
+{"prompt":"a photo of a toothbrush below a zebra","tag":"position","include":[{"class":"zebra","count":1},{"class":"toothbrush","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a bed below a cup","tag":"position","include":[{"class":"cup","count":1},{"class":"bed","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a surfboard and a motorcycle","tag":"two_object","include":[{"class":"surfboard","count":1},{"class":"motorcycle","count":1}]}
+{"prompt":"a photo of a green surfboard and an orange donut","tag":"color_attr","include":[{"class":"surfboard","count":1,"color":"green"},{"class":"donut","count":1,"color":"orange"}]}
+{"prompt":"a photo of a black scissors and a red broccoli","tag":"color_attr","include":[{"class":"scissors","count":1,"color":"black"},{"class":"broccoli","count":1,"color":"red"}]}
+{"prompt":"a photo of a vase and a baseball glove","tag":"two_object","include":[{"class":"vase","count":1},{"class":"baseball glove","count":1}]}
+{"prompt":"a photo of a green computer keyboard and a pink tv","tag":"color_attr","include":[{"class":"computer keyboard","count":1,"color":"green"},{"class":"tv","count":1,"color":"pink"}]}
+{"prompt":"a photo of a dog below an orange","tag":"position","include":[{"class":"orange","count":1},{"class":"dog","count":1,"position":["below",0]}]}
+{"prompt":"a photo of four kites","tag":"counting","include":[{"class":"kite","count":4}],"exclude":[{"class":"kite","count":5}]}
+{"prompt":"a photo of a refrigerator and an oven","tag":"two_object","include":[{"class":"refrigerator","count":1},{"class":"oven","count":1}]}
+{"prompt":"a photo of a red truck","tag":"colors","include":[{"class":"truck","count":1,"color":"red"}]}
+{"prompt":"a photo of three ovens","tag":"counting","include":[{"class":"oven","count":3}],"exclude":[{"class":"oven","count":4}]}
+{"prompt":"a photo of a hair drier and an apple","tag":"two_object","include":[{"class":"hair drier","count":1},{"class":"apple","count":1}]}
+{"prompt":"a photo of a white suitcase and a black hot dog","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"white"},{"class":"hot dog","count":1,"color":"black"}]}
+{"prompt":"a photo of a brown sandwich","tag":"colors","include":[{"class":"sandwich","count":1,"color":"brown"}]}
+{"prompt":"a photo of an orange computer keyboard and a pink broccoli","tag":"color_attr","include":[{"class":"computer keyboard","count":1,"color":"orange"},{"class":"broccoli","count":1,"color":"pink"}]}
+{"prompt":"a photo of a sheep and a fire hydrant","tag":"two_object","include":[{"class":"sheep","count":1},{"class":"fire hydrant","count":1}]}
+{"prompt":"a photo of a blue baseball bat and a yellow tie","tag":"color_attr","include":[{"class":"baseball bat","count":1,"color":"blue"},{"class":"tie","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a green refrigerator and a yellow pizza","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"green"},{"class":"pizza","count":1,"color":"yellow"}]}
+{"prompt":"a photo of an apple and a backpack","tag":"two_object","include":[{"class":"apple","count":1},{"class":"backpack","count":1}]}
+{"prompt":"a photo of a book and a snowboard","tag":"two_object","include":[{"class":"book","count":1},{"class":"snowboard","count":1}]}
+{"prompt":"a photo of a purple oven and a red cow","tag":"color_attr","include":[{"class":"oven","count":1,"color":"purple"},{"class":"cow","count":1,"color":"red"}]}
+{"prompt":"a photo of four trains","tag":"counting","include":[{"class":"train","count":4}],"exclude":[{"class":"train","count":5}]}
+{"prompt":"a photo of two airplanes","tag":"counting","include":[{"class":"airplane","count":2}],"exclude":[{"class":"airplane","count":3}]}
+{"prompt":"a photo of four surfboards","tag":"counting","include":[{"class":"surfboard","count":4}],"exclude":[{"class":"surfboard","count":5}]}
+{"prompt":"a photo of a pink knife","tag":"colors","include":[{"class":"knife","count":1,"color":"pink"}]}
+{"prompt":"a photo of three toilets","tag":"counting","include":[{"class":"toilet","count":3}],"exclude":[{"class":"toilet","count":4}]}
+{"prompt":"a photo of a purple tie","tag":"colors","include":[{"class":"tie","count":1,"color":"purple"}]}
+{"prompt":"a photo of a handbag above a truck","tag":"position","include":[{"class":"truck","count":1},{"class":"handbag","count":1,"position":["above",0]}]}
+{"prompt":"a photo of two oranges","tag":"counting","include":[{"class":"orange","count":2}],"exclude":[{"class":"orange","count":3}]}
+{"prompt":"a photo of three sandwichs","tag":"counting","include":[{"class":"sandwich","count":3}],"exclude":[{"class":"sandwich","count":4}]}
+{"prompt":"a photo of a green giraffe","tag":"colors","include":[{"class":"giraffe","count":1,"color":"green"}]}
+{"prompt":"a photo of a train and a computer keyboard","tag":"two_object","include":[{"class":"train","count":1},{"class":"computer keyboard","count":1}]}
+{"prompt":"a photo of a green umbrella and a purple fork","tag":"color_attr","include":[{"class":"umbrella","count":1,"color":"green"},{"class":"fork","count":1,"color":"purple"}]}
+{"prompt":"a photo of a white broccoli and an orange sandwich","tag":"color_attr","include":[{"class":"broccoli","count":1,"color":"white"},{"class":"sandwich","count":1,"color":"orange"}]}
+{"prompt":"a photo of a scissors and a bicycle","tag":"two_object","include":[{"class":"scissors","count":1},{"class":"bicycle","count":1}]}
+{"prompt":"a photo of a cat above a cake","tag":"position","include":[{"class":"cake","count":1},{"class":"cat","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a white cat","tag":"colors","include":[{"class":"cat","count":1,"color":"white"}]}
+{"prompt":"a photo of a white banana","tag":"colors","include":[{"class":"banana","count":1,"color":"white"}]}
+{"prompt":"a photo of three vases","tag":"counting","include":[{"class":"vase","count":3}],"exclude":[{"class":"vase","count":4}]}
+{"prompt":"a photo of a toaster and a clock","tag":"two_object","include":[{"class":"toaster","count":1},{"class":"clock","count":1}]}
+{"prompt":"a photo of a refrigerator left of a giraffe","tag":"position","include":[{"class":"giraffe","count":1},{"class":"refrigerator","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a black tie and a yellow bear","tag":"color_attr","include":[{"class":"tie","count":1,"color":"black"},{"class":"bear","count":1,"color":"yellow"}]}
+{"prompt":"a photo of four carrots","tag":"counting","include":[{"class":"carrot","count":4}],"exclude":[{"class":"carrot","count":5}]}
+{"prompt":"a photo of three frisbees","tag":"counting","include":[{"class":"frisbee","count":3}],"exclude":[{"class":"frisbee","count":4}]}
+{"prompt":"a photo of a yellow apple and a purple skateboard","tag":"color_attr","include":[{"class":"apple","count":1,"color":"yellow"},{"class":"skateboard","count":1,"color":"purple"}]}
+{"prompt":"a photo of an orange orange and a pink tv","tag":"color_attr","include":[{"class":"orange","count":1,"color":"orange"},{"class":"tv","count":1,"color":"pink"}]}
+{"prompt":"a photo of three toasters","tag":"counting","include":[{"class":"toaster","count":3}],"exclude":[{"class":"toaster","count":4}]}
+{"prompt":"a photo of a white bear and a black giraffe","tag":"color_attr","include":[{"class":"bear","count":1,"color":"white"},{"class":"giraffe","count":1,"color":"black"}]}
+{"prompt":"a photo of a parking meter and a fork","tag":"two_object","include":[{"class":"parking meter","count":1},{"class":"fork","count":1}]}
+{"prompt":"a photo of four dining tables","tag":"counting","include":[{"class":"dining table","count":4}],"exclude":[{"class":"dining table","count":5}]}
+{"prompt":"a photo of a blue toaster and a black parking meter","tag":"color_attr","include":[{"class":"toaster","count":1,"color":"blue"},{"class":"parking meter","count":1,"color":"black"}]}
+{"prompt":"a photo of a laptop and a zebra","tag":"two_object","include":[{"class":"laptop","count":1},{"class":"zebra","count":1}]}
+{"prompt":"a photo of a bed above a baseball glove","tag":"position","include":[{"class":"baseball glove","count":1},{"class":"bed","count":1,"position":["above",0]}]}
+{"prompt":"a photo of four airplanes","tag":"counting","include":[{"class":"airplane","count":4}],"exclude":[{"class":"airplane","count":5}]}
+{"prompt":"a photo of three boats","tag":"counting","include":[{"class":"boat","count":3}],"exclude":[{"class":"boat","count":4}]}
+{"prompt":"a photo of a blue kite","tag":"colors","include":[{"class":"kite","count":1,"color":"blue"}]}
+{"prompt":"a photo of an orange suitcase and a blue backpack","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"orange"},{"class":"backpack","count":1,"color":"blue"}]}
+{"prompt":"a photo of a brown pizza and a pink spoon","tag":"color_attr","include":[{"class":"pizza","count":1,"color":"brown"},{"class":"spoon","count":1,"color":"pink"}]}
+{"prompt":"a photo of an orange clock and a black cell phone","tag":"color_attr","include":[{"class":"clock","count":1,"color":"orange"},{"class":"cell phone","count":1,"color":"black"}]}
+{"prompt":"a photo of a computer mouse left of a train","tag":"position","include":[{"class":"train","count":1},{"class":"computer mouse","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a fork and a sandwich","tag":"two_object","include":[{"class":"fork","count":1},{"class":"sandwich","count":1}]}
+{"prompt":"a photo of four snowboards","tag":"counting","include":[{"class":"snowboard","count":4}],"exclude":[{"class":"snowboard","count":5}]}
+{"prompt":"a photo of a purple banana and a blue zebra","tag":"color_attr","include":[{"class":"banana","count":1,"color":"purple"},{"class":"zebra","count":1,"color":"blue"}]}
+{"prompt":"a photo of a giraffe below a fork","tag":"position","include":[{"class":"fork","count":1},{"class":"giraffe","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a brown wine glass and a red hair drier","tag":"color_attr","include":[{"class":"wine glass","count":1,"color":"brown"},{"class":"hair drier","count":1,"color":"red"}]}
+{"prompt":"a photo of an orange and an apple","tag":"two_object","include":[{"class":"orange","count":1},{"class":"apple","count":1}]}
+{"prompt":"a photo of a purple motorcycle and a green traffic light","tag":"color_attr","include":[{"class":"motorcycle","count":1,"color":"purple"},{"class":"traffic light","count":1,"color":"green"}]}
+{"prompt":"a photo of a yellow car and an orange chair","tag":"color_attr","include":[{"class":"car","count":1,"color":"yellow"},{"class":"chair","count":1,"color":"orange"}]}
+{"prompt":"a photo of a spoon and an orange","tag":"two_object","include":[{"class":"spoon","count":1},{"class":"orange","count":1}]}
+{"prompt":"a photo of a yellow kite and a red dog","tag":"color_attr","include":[{"class":"kite","count":1,"color":"yellow"},{"class":"dog","count":1,"color":"red"}]}
+{"prompt":"a photo of a black tennis racket and an orange baseball bat","tag":"color_attr","include":[{"class":"tennis racket","count":1,"color":"black"},{"class":"baseball bat","count":1,"color":"orange"}]}
+{"prompt":"a photo of a handbag above a toilet","tag":"position","include":[{"class":"toilet","count":1},{"class":"handbag","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a brown suitcase and an orange potted plant","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"brown"},{"class":"potted plant","count":1,"color":"orange"}]}
+{"prompt":"a photo of a blue carrot and a white backpack","tag":"color_attr","include":[{"class":"carrot","count":1,"color":"blue"},{"class":"backpack","count":1,"color":"white"}]}
+{"prompt":"a photo of a handbag and a spoon","tag":"two_object","include":[{"class":"handbag","count":1},{"class":"spoon","count":1}]}
+{"prompt":"a photo of a red baseball bat and an orange airplane","tag":"color_attr","include":[{"class":"baseball bat","count":1,"color":"red"},{"class":"airplane","count":1,"color":"orange"}]}
+{"prompt":"a photo of a green cat","tag":"colors","include":[{"class":"cat","count":1,"color":"green"}]}
+{"prompt":"a photo of a hot dog and a pizza","tag":"two_object","include":[{"class":"hot dog","count":1},{"class":"pizza","count":1}]}
+{"prompt":"a photo of a pink frisbee and a black chair","tag":"color_attr","include":[{"class":"frisbee","count":1,"color":"pink"},{"class":"chair","count":1,"color":"black"}]}
+{"prompt":"a photo of two laptops","tag":"counting","include":[{"class":"laptop","count":2}],"exclude":[{"class":"laptop","count":3}]}
+{"prompt":"a photo of a tennis racket above an orange","tag":"position","include":[{"class":"orange","count":1},{"class":"tennis racket","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a horse below a hair drier","tag":"position","include":[{"class":"hair drier","count":1},{"class":"horse","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a black frisbee and a brown train","tag":"color_attr","include":[{"class":"frisbee","count":1,"color":"black"},{"class":"train","count":1,"color":"brown"}]}
+{"prompt":"a photo of a black knife and a white surfboard","tag":"color_attr","include":[{"class":"knife","count":1,"color":"black"},{"class":"surfboard","count":1,"color":"white"}]}
+{"prompt":"a photo of a pink skateboard and a yellow giraffe","tag":"color_attr","include":[{"class":"skateboard","count":1,"color":"pink"},{"class":"giraffe","count":1,"color":"yellow"}]}
+{"prompt":"a photo of four tennis rackets","tag":"counting","include":[{"class":"tennis racket","count":4}],"exclude":[{"class":"tennis racket","count":5}]}
+{"prompt":"a photo of a blue bowl","tag":"colors","include":[{"class":"bowl","count":1,"color":"blue"}]}
+{"prompt":"a photo of a white microwave and a green refrigerator","tag":"color_attr","include":[{"class":"microwave","count":1,"color":"white"},{"class":"refrigerator","count":1,"color":"green"}]}
+{"prompt":"a photo of a traffic light and a banana","tag":"two_object","include":[{"class":"traffic light","count":1},{"class":"banana","count":1}]}
+{"prompt":"a photo of two baseball gloves","tag":"counting","include":[{"class":"baseball glove","count":2}],"exclude":[{"class":"baseball glove","count":3}]}
+{"prompt":"a photo of a black scissors and a blue refrigerator","tag":"color_attr","include":[{"class":"scissors","count":1,"color":"black"},{"class":"refrigerator","count":1,"color":"blue"}]}
+{"prompt":"a photo of a yellow microwave","tag":"colors","include":[{"class":"microwave","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a toaster and a fork","tag":"two_object","include":[{"class":"toaster","count":1},{"class":"fork","count":1}]}
+{"prompt":"a photo of a laptop above a sandwich","tag":"position","include":[{"class":"sandwich","count":1},{"class":"laptop","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a green bus and a pink knife","tag":"color_attr","include":[{"class":"bus","count":1,"color":"green"},{"class":"knife","count":1,"color":"pink"}]}
+{"prompt":"a photo of a suitcase left of a bowl","tag":"position","include":[{"class":"bowl","count":1},{"class":"suitcase","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a teddy bear above a knife","tag":"position","include":[{"class":"knife","count":1},{"class":"teddy bear","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a teddy bear and a surfboard","tag":"two_object","include":[{"class":"teddy bear","count":1},{"class":"surfboard","count":1}]}
+{"prompt":"a photo of a black toilet and a blue elephant","tag":"color_attr","include":[{"class":"toilet","count":1,"color":"black"},{"class":"elephant","count":1,"color":"blue"}]}
+{"prompt":"a photo of a purple traffic light and a red hair drier","tag":"color_attr","include":[{"class":"traffic light","count":1,"color":"purple"},{"class":"hair drier","count":1,"color":"red"}]}
+{"prompt":"a photo of a green handbag and a pink laptop","tag":"color_attr","include":[{"class":"handbag","count":1,"color":"green"},{"class":"laptop","count":1,"color":"pink"}]}
+{"prompt":"a photo of four sandwichs","tag":"counting","include":[{"class":"sandwich","count":4}],"exclude":[{"class":"sandwich","count":5}]}
+{"prompt":"a photo of a car above a tv","tag":"position","include":[{"class":"tv","count":1},{"class":"car","count":1,"position":["above",0]}]}
+{"prompt":"a photo of an orange fire hydrant and a pink oven","tag":"color_attr","include":[{"class":"fire hydrant","count":1,"color":"orange"},{"class":"oven","count":1,"color":"pink"}]}
+{"prompt":"a photo of a cow and a kite","tag":"two_object","include":[{"class":"cow","count":1},{"class":"kite","count":1}]}
+{"prompt":"a photo of a bowl and a wine glass","tag":"two_object","include":[{"class":"bowl","count":1},{"class":"wine glass","count":1}]}
+{"prompt":"a photo of a surfboard and a bed","tag":"two_object","include":[{"class":"surfboard","count":1},{"class":"bed","count":1}]}
+{"prompt":"a photo of a red spoon","tag":"colors","include":[{"class":"spoon","count":1,"color":"red"}]}
+{"prompt":"a photo of a boat and a hot dog","tag":"two_object","include":[{"class":"boat","count":1},{"class":"hot dog","count":1}]}
+{"prompt":"a photo of a yellow snowboard and a white vase","tag":"color_attr","include":[{"class":"snowboard","count":1,"color":"yellow"},{"class":"vase","count":1,"color":"white"}]}
+{"prompt":"a photo of a blue refrigerator and a black baseball glove","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"blue"},{"class":"baseball glove","count":1,"color":"black"}]}
+{"prompt":"a photo of a teddy bear right of a computer keyboard","tag":"position","include":[{"class":"computer keyboard","count":1},{"class":"teddy bear","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of four spoons","tag":"counting","include":[{"class":"spoon","count":4}],"exclude":[{"class":"spoon","count":5}]}
+{"prompt":"a photo of a zebra below a scissors","tag":"position","include":[{"class":"scissors","count":1},{"class":"zebra","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a green couch and a yellow car","tag":"color_attr","include":[{"class":"couch","count":1,"color":"green"},{"class":"car","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a red refrigerator and a blue cell phone","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"red"},{"class":"cell phone","count":1,"color":"blue"}]}
+{"prompt":"a photo of four toothbrushs","tag":"counting","include":[{"class":"toothbrush","count":4}],"exclude":[{"class":"toothbrush","count":5}]}
+{"prompt":"a photo of a white tv remote and a red truck","tag":"color_attr","include":[{"class":"tv remote","count":1,"color":"white"},{"class":"truck","count":1,"color":"red"}]}
+{"prompt":"a photo of a purple tv remote and a white handbag","tag":"color_attr","include":[{"class":"tv remote","count":1,"color":"purple"},{"class":"handbag","count":1,"color":"white"}]}
+{"prompt":"a photo of a motorcycle above a boat","tag":"position","include":[{"class":"boat","count":1},{"class":"motorcycle","count":1,"position":["above",0]}]}
+{"prompt":"a photo of an orange zebra and a brown bottle","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"orange"},{"class":"bottle","count":1,"color":"brown"}]}
+{"prompt":"a photo of a tv remote and a sports ball","tag":"two_object","include":[{"class":"tv remote","count":1},{"class":"sports ball","count":1}]}
+{"prompt":"a photo of a brown truck and an orange vase","tag":"color_attr","include":[{"class":"truck","count":1,"color":"brown"},{"class":"vase","count":1,"color":"orange"}]}
+{"prompt":"a photo of a pink bench and a brown dining table","tag":"color_attr","include":[{"class":"bench","count":1,"color":"pink"},{"class":"dining table","count":1,"color":"brown"}]}
+{"prompt":"a photo of an orange banana","tag":"colors","include":[{"class":"banana","count":1,"color":"orange"}]}
+{"prompt":"a photo of a donut and a bowl","tag":"two_object","include":[{"class":"donut","count":1},{"class":"bowl","count":1}]}
+{"prompt":"a photo of a giraffe above a tv remote","tag":"position","include":[{"class":"tv remote","count":1},{"class":"giraffe","count":1,"position":["above",0]}]}
+{"prompt":"a photo of three backpacks","tag":"counting","include":[{"class":"backpack","count":3}],"exclude":[{"class":"backpack","count":4}]}
+{"prompt":"a photo of a brown zebra and a green refrigerator","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"brown"},{"class":"refrigerator","count":1,"color":"green"}]}
+{"prompt":"a photo of a dining table and a sheep","tag":"two_object","include":[{"class":"dining table","count":1},{"class":"sheep","count":1}]}
+{"prompt":"a photo of an elephant and a toaster","tag":"two_object","include":[{"class":"elephant","count":1},{"class":"toaster","count":1}]}
+{"prompt":"a photo of a red airplane and an orange bus","tag":"color_attr","include":[{"class":"airplane","count":1,"color":"red"},{"class":"bus","count":1,"color":"orange"}]}
+{"prompt":"a photo of three broccolis","tag":"counting","include":[{"class":"broccoli","count":3}],"exclude":[{"class":"broccoli","count":4}]}
+{"prompt":"a photo of a red snowboard and a green scissors","tag":"color_attr","include":[{"class":"snowboard","count":1,"color":"red"},{"class":"scissors","count":1,"color":"green"}]}
+{"prompt":"a photo of two apples","tag":"counting","include":[{"class":"apple","count":2}],"exclude":[{"class":"apple","count":3}]}
+{"prompt":"a photo of a green pizza and a white handbag","tag":"color_attr","include":[{"class":"pizza","count":1,"color":"green"},{"class":"handbag","count":1,"color":"white"}]}
+{"prompt":"a photo of a bench and a bottle","tag":"two_object","include":[{"class":"bench","count":1},{"class":"bottle","count":1}]}
+{"prompt":"a photo of a bear below a dining table","tag":"position","include":[{"class":"dining table","count":1},{"class":"bear","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a black backpack and a pink bed","tag":"color_attr","include":[{"class":"backpack","count":1,"color":"black"},{"class":"bed","count":1,"color":"pink"}]}
+{"prompt":"a photo of three bananas","tag":"counting","include":[{"class":"banana","count":3}],"exclude":[{"class":"banana","count":4}]}
+{"prompt":"a photo of four sports balls","tag":"counting","include":[{"class":"sports ball","count":4}],"exclude":[{"class":"sports ball","count":5}]}
+{"prompt":"a photo of a brown skateboard and a green traffic light","tag":"color_attr","include":[{"class":"skateboard","count":1,"color":"brown"},{"class":"traffic light","count":1,"color":"green"}]}
+{"prompt":"a photo of a book and a cup","tag":"two_object","include":[{"class":"book","count":1},{"class":"cup","count":1}]}
+{"prompt":"a photo of three ties","tag":"counting","include":[{"class":"tie","count":3}],"exclude":[{"class":"tie","count":4}]}
+{"prompt":"a photo of a computer keyboard above an oven","tag":"position","include":[{"class":"oven","count":1},{"class":"computer keyboard","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a black suitcase and a red cow","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"black"},{"class":"cow","count":1,"color":"red"}]}
+{"prompt":"a photo of a parking meter and an orange","tag":"two_object","include":[{"class":"parking meter","count":1},{"class":"orange","count":1}]}
+{"prompt":"a photo of a toilet right of a pizza","tag":"position","include":[{"class":"pizza","count":1},{"class":"toilet","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a brown refrigerator and a pink computer keyboard","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"brown"},{"class":"computer keyboard","count":1,"color":"pink"}]}
+{"prompt":"a photo of four beds","tag":"counting","include":[{"class":"bed","count":4}],"exclude":[{"class":"bed","count":5}]}
+{"prompt":"a photo of a brown handbag and a red knife","tag":"color_attr","include":[{"class":"handbag","count":1,"color":"brown"},{"class":"knife","count":1,"color":"red"}]}
+{"prompt":"a photo of a book above a tv","tag":"position","include":[{"class":"tv","count":1},{"class":"book","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a green toothbrush and a purple tie","tag":"color_attr","include":[{"class":"toothbrush","count":1,"color":"green"},{"class":"tie","count":1,"color":"purple"}]}
+{"prompt":"a photo of a purple hair drier and a white bicycle","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"purple"},{"class":"bicycle","count":1,"color":"white"}]}
+{"prompt":"a photo of a motorcycle right of a hot dog","tag":"position","include":[{"class":"hot dog","count":1},{"class":"motorcycle","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of four refrigerators","tag":"counting","include":[{"class":"refrigerator","count":4}],"exclude":[{"class":"refrigerator","count":5}]}
+{"prompt":"a photo of a blue bear and a brown traffic light","tag":"color_attr","include":[{"class":"bear","count":1,"color":"blue"},{"class":"traffic light","count":1,"color":"brown"}]}
+{"prompt":"a photo of a toaster and a tv remote","tag":"two_object","include":[{"class":"toaster","count":1},{"class":"tv remote","count":1}]}
+{"prompt":"a photo of a purple computer mouse and a red vase","tag":"color_attr","include":[{"class":"computer mouse","count":1,"color":"purple"},{"class":"vase","count":1,"color":"red"}]}
+{"prompt":"a photo of a potted plant above a skis","tag":"position","include":[{"class":"skis","count":1},{"class":"potted plant","count":1,"position":["above",0]}]}
+{"prompt":"a photo of four ties","tag":"counting","include":[{"class":"tie","count":4}],"exclude":[{"class":"tie","count":5}]}
+{"prompt":"a photo of four ovens","tag":"counting","include":[{"class":"oven","count":4}],"exclude":[{"class":"oven","count":5}]}
+{"prompt":"a photo of a zebra left of a book","tag":"position","include":[{"class":"book","count":1},{"class":"zebra","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a brown zebra","tag":"colors","include":[{"class":"zebra","count":1,"color":"brown"}]}
+{"prompt":"a photo of a brown wine glass","tag":"colors","include":[{"class":"wine glass","count":1,"color":"brown"}]}
+{"prompt":"a photo of a purple oven and an orange vase","tag":"color_attr","include":[{"class":"oven","count":1,"color":"purple"},{"class":"vase","count":1,"color":"orange"}]}
+{"prompt":"a photo of a bicycle above a tennis racket","tag":"position","include":[{"class":"tennis racket","count":1},{"class":"bicycle","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a brown bicycle and a red sandwich","tag":"color_attr","include":[{"class":"bicycle","count":1,"color":"brown"},{"class":"sandwich","count":1,"color":"red"}]}
+{"prompt":"a photo of an orange tennis racket and a blue oven","tag":"color_attr","include":[{"class":"tennis racket","count":1,"color":"orange"},{"class":"oven","count":1,"color":"blue"}]}
+{"prompt":"a photo of a brown bowl and an orange orange","tag":"color_attr","include":[{"class":"bowl","count":1,"color":"brown"},{"class":"orange","count":1,"color":"orange"}]}
+{"prompt":"a photo of a sandwich and a cup","tag":"two_object","include":[{"class":"sandwich","count":1},{"class":"cup","count":1}]}
+{"prompt":"a photo of a black bench and a red toothbrush","tag":"color_attr","include":[{"class":"bench","count":1,"color":"black"},{"class":"toothbrush","count":1,"color":"red"}]}
+{"prompt":"a photo of a brown train and a white laptop","tag":"color_attr","include":[{"class":"train","count":1,"color":"brown"},{"class":"laptop","count":1,"color":"white"}]}
+{"prompt":"a photo of a red scissors and a brown computer keyboard","tag":"color_attr","include":[{"class":"scissors","count":1,"color":"red"},{"class":"computer keyboard","count":1,"color":"brown"}]}
+{"prompt":"a photo of a white hot dog and a yellow knife","tag":"color_attr","include":[{"class":"hot dog","count":1,"color":"white"},{"class":"knife","count":1,"color":"yellow"}]}
+{"prompt":"a photo of four bottles","tag":"counting","include":[{"class":"bottle","count":4}],"exclude":[{"class":"bottle","count":5}]}
+{"prompt":"a photo of an orange stop sign and a purple sports ball","tag":"color_attr","include":[{"class":"stop sign","count":1,"color":"orange"},{"class":"sports ball","count":1,"color":"purple"}]}
+{"prompt":"a photo of two zebras","tag":"counting","include":[{"class":"zebra","count":2}],"exclude":[{"class":"zebra","count":3}]}
+{"prompt":"a photo of a green hair drier and a red computer mouse","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"green"},{"class":"computer mouse","count":1,"color":"red"}]}
+{"prompt":"a photo of a bottle and a bowl","tag":"two_object","include":[{"class":"bottle","count":1},{"class":"bowl","count":1}]}
+{"prompt":"a photo of a scissors above a snowboard","tag":"position","include":[{"class":"snowboard","count":1},{"class":"scissors","count":1,"position":["above",0]}]}
+{"prompt":"a photo of an orange skateboard","tag":"colors","include":[{"class":"skateboard","count":1,"color":"orange"}]}
+{"prompt":"a photo of a train and a cat","tag":"two_object","include":[{"class":"train","count":1},{"class":"cat","count":1}]}
+{"prompt":"a photo of four teddy bears","tag":"counting","include":[{"class":"teddy bear","count":4}],"exclude":[{"class":"teddy bear","count":5}]}
+{"prompt":"a photo of a hair drier and a frisbee","tag":"two_object","include":[{"class":"hair drier","count":1},{"class":"frisbee","count":1}]}
+{"prompt":"a photo of three cakes","tag":"counting","include":[{"class":"cake","count":3}],"exclude":[{"class":"cake","count":4}]}
+{"prompt":"a photo of a tie above a teddy bear","tag":"position","include":[{"class":"teddy bear","count":1},{"class":"tie","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a backpack and a computer keyboard","tag":"two_object","include":[{"class":"backpack","count":1},{"class":"computer keyboard","count":1}]}
+{"prompt":"a photo of an orange teddy bear","tag":"colors","include":[{"class":"teddy bear","count":1,"color":"orange"}]}
+{"prompt":"a photo of a yellow car","tag":"colors","include":[{"class":"car","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a skis and a parking meter","tag":"two_object","include":[{"class":"skis","count":1},{"class":"parking meter","count":1}]}
+{"prompt":"a photo of a green bear","tag":"colors","include":[{"class":"bear","count":1,"color":"green"}]}
+{"prompt":"a photo of a red potted plant and a pink traffic light","tag":"color_attr","include":[{"class":"potted plant","count":1,"color":"red"},{"class":"traffic light","count":1,"color":"pink"}]}
+{"prompt":"a photo of a wine glass left of a person","tag":"position","include":[{"class":"person","count":1},{"class":"wine glass","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a blue snowboard and a red skateboard","tag":"color_attr","include":[{"class":"snowboard","count":1,"color":"blue"},{"class":"skateboard","count":1,"color":"red"}]}
+{"prompt":"a photo of a green horse and a blue surfboard","tag":"color_attr","include":[{"class":"horse","count":1,"color":"green"},{"class":"surfboard","count":1,"color":"blue"}]}
+{"prompt":"a photo of a giraffe and a bowl","tag":"two_object","include":[{"class":"giraffe","count":1},{"class":"bowl","count":1}]}
+{"prompt":"a photo of three carrots","tag":"counting","include":[{"class":"carrot","count":3}],"exclude":[{"class":"carrot","count":4}]}
+{"prompt":"a photo of a skateboard left of a tv","tag":"position","include":[{"class":"tv","count":1},{"class":"skateboard","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a cat and an apple","tag":"two_object","include":[{"class":"cat","count":1},{"class":"apple","count":1}]}
+{"prompt":"a photo of a cow right of a giraffe","tag":"position","include":[{"class":"giraffe","count":1},{"class":"cow","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a purple hair drier and a white tennis racket","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"purple"},{"class":"tennis racket","count":1,"color":"white"}]}
+{"prompt":"a photo of a truck above a bench","tag":"position","include":[{"class":"bench","count":1},{"class":"truck","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a person above a motorcycle","tag":"position","include":[{"class":"motorcycle","count":1},{"class":"person","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a blue dog and a pink knife","tag":"color_attr","include":[{"class":"dog","count":1,"color":"blue"},{"class":"knife","count":1,"color":"pink"}]}
+{"prompt":"a photo of three horses","tag":"counting","include":[{"class":"horse","count":3}],"exclude":[{"class":"horse","count":4}]}
+{"prompt":"a photo of a black wine glass and a brown bus","tag":"color_attr","include":[{"class":"wine glass","count":1,"color":"black"},{"class":"bus","count":1,"color":"brown"}]}
+{"prompt":"a photo of four computer mouses","tag":"counting","include":[{"class":"computer mouse","count":4}],"exclude":[{"class":"computer mouse","count":5}]}
+{"prompt":"a photo of a dog and a car","tag":"two_object","include":[{"class":"dog","count":1},{"class":"car","count":1}]}
+{"prompt":"a photo of two cups","tag":"counting","include":[{"class":"cup","count":2}],"exclude":[{"class":"cup","count":3}]}
+{"prompt":"a photo of a car and a clock","tag":"two_object","include":[{"class":"car","count":1},{"class":"clock","count":1}]}
+{"prompt":"a photo of an elephant and a toilet","tag":"two_object","include":[{"class":"elephant","count":1},{"class":"toilet","count":1}]}
+{"prompt":"a photo of three trains","tag":"counting","include":[{"class":"train","count":3}],"exclude":[{"class":"train","count":4}]}
+{"prompt":"a photo of a person and a frisbee","tag":"two_object","include":[{"class":"person","count":1},{"class":"frisbee","count":1}]}
+{"prompt":"a photo of a red baseball glove","tag":"colors","include":[{"class":"baseball glove","count":1,"color":"red"}]}
+{"prompt":"a photo of two microwaves","tag":"counting","include":[{"class":"microwave","count":2}],"exclude":[{"class":"microwave","count":3}]}
+{"prompt":"a photo of four parking meters","tag":"counting","include":[{"class":"parking meter","count":4}],"exclude":[{"class":"parking meter","count":5}]}
+{"prompt":"a photo of a black microwave and a brown surfboard","tag":"color_attr","include":[{"class":"microwave","count":1,"color":"black"},{"class":"surfboard","count":1,"color":"brown"}]}
+{"prompt":"a photo of a clock and a dog","tag":"two_object","include":[{"class":"clock","count":1},{"class":"dog","count":1}]}
+{"prompt":"a photo of a motorcycle left of an elephant","tag":"position","include":[{"class":"elephant","count":1},{"class":"motorcycle","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of three stop signs","tag":"counting","include":[{"class":"stop sign","count":3}],"exclude":[{"class":"stop sign","count":4}]}
+{"prompt":"a photo of two bowls","tag":"counting","include":[{"class":"bowl","count":2}],"exclude":[{"class":"bowl","count":3}]}
+{"prompt":"a photo of a fire hydrant below a teddy bear","tag":"position","include":[{"class":"teddy bear","count":1},{"class":"fire hydrant","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a zebra and a suitcase","tag":"two_object","include":[{"class":"zebra","count":1},{"class":"suitcase","count":1}]}
+{"prompt":"a photo of a hair drier below a tie","tag":"position","include":[{"class":"tie","count":1},{"class":"hair drier","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a tennis racket right of an airplane","tag":"position","include":[{"class":"airplane","count":1},{"class":"tennis racket","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a green couch and a blue elephant","tag":"color_attr","include":[{"class":"couch","count":1,"color":"green"},{"class":"elephant","count":1,"color":"blue"}]}
+{"prompt":"a photo of a white toaster and a green clock","tag":"color_attr","include":[{"class":"toaster","count":1,"color":"white"},{"class":"clock","count":1,"color":"green"}]}
+{"prompt":"a photo of a cat right of a vase","tag":"position","include":[{"class":"vase","count":1},{"class":"cat","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a fork above an apple","tag":"position","include":[{"class":"apple","count":1},{"class":"fork","count":1,"position":["above",0]}]}
+{"prompt":"a photo of three bottles","tag":"counting","include":[{"class":"bottle","count":3}],"exclude":[{"class":"bottle","count":4}]}
+{"prompt":"a photo of a purple handbag","tag":"colors","include":[{"class":"handbag","count":1,"color":"purple"}]}
+{"prompt":"a photo of a white umbrella and a blue truck","tag":"color_attr","include":[{"class":"umbrella","count":1,"color":"white"},{"class":"truck","count":1,"color":"blue"}]}
+{"prompt":"a photo of three bowls","tag":"counting","include":[{"class":"bowl","count":3}],"exclude":[{"class":"bowl","count":4}]}
+{"prompt":"a photo of a handbag and a sandwich","tag":"two_object","include":[{"class":"handbag","count":1},{"class":"sandwich","count":1}]}
+{"prompt":"a photo of a hair drier above an elephant","tag":"position","include":[{"class":"elephant","count":1},{"class":"hair drier","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a sink below a toothbrush","tag":"position","include":[{"class":"toothbrush","count":1},{"class":"sink","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a pizza and a bear","tag":"two_object","include":[{"class":"pizza","count":1},{"class":"bear","count":1}]}
+{"prompt":"a photo of a black skateboard and a purple teddy bear","tag":"color_attr","include":[{"class":"skateboard","count":1,"color":"black"},{"class":"teddy bear","count":1,"color":"purple"}]}
+{"prompt":"a photo of three sheeps","tag":"counting","include":[{"class":"sheep","count":3}],"exclude":[{"class":"sheep","count":4}]}
+{"prompt":"a photo of a sink and a chair","tag":"two_object","include":[{"class":"sink","count":1},{"class":"chair","count":1}]}
+{"prompt":"a photo of a bed and a hair drier","tag":"two_object","include":[{"class":"bed","count":1},{"class":"hair drier","count":1}]}
+{"prompt":"a photo of a green potted plant and an orange backpack","tag":"color_attr","include":[{"class":"potted plant","count":1,"color":"green"},{"class":"backpack","count":1,"color":"orange"}]}
+{"prompt":"a photo of a purple parking meter","tag":"colors","include":[{"class":"parking meter","count":1,"color":"purple"}]}
+{"prompt":"a photo of a green elephant and a black cell phone","tag":"color_attr","include":[{"class":"elephant","count":1,"color":"green"},{"class":"cell phone","count":1,"color":"black"}]}
+{"prompt":"a photo of a green cat and a blue toilet","tag":"color_attr","include":[{"class":"cat","count":1,"color":"green"},{"class":"toilet","count":1,"color":"blue"}]}
+{"prompt":"a photo of a blue skateboard and a purple stop sign","tag":"color_attr","include":[{"class":"skateboard","count":1,"color":"blue"},{"class":"stop sign","count":1,"color":"purple"}]}
+{"prompt":"a photo of a red orange and a white train","tag":"color_attr","include":[{"class":"orange","count":1,"color":"red"},{"class":"train","count":1,"color":"white"}]}
+{"prompt":"a photo of a donut and a baseball glove","tag":"two_object","include":[{"class":"donut","count":1},{"class":"baseball glove","count":1}]}
+{"prompt":"a photo of a red tie and a yellow spoon","tag":"color_attr","include":[{"class":"tie","count":1,"color":"red"},{"class":"spoon","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a banana left of a teddy bear","tag":"position","include":[{"class":"teddy bear","count":1},{"class":"banana","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a green cow and a yellow donut","tag":"color_attr","include":[{"class":"cow","count":1,"color":"green"},{"class":"donut","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a motorcycle and a skateboard","tag":"two_object","include":[{"class":"motorcycle","count":1},{"class":"skateboard","count":1}]}
+{"prompt":"a photo of a zebra and an apple","tag":"two_object","include":[{"class":"zebra","count":1},{"class":"apple","count":1}]}
+{"prompt":"a photo of two birds","tag":"counting","include":[{"class":"bird","count":2}],"exclude":[{"class":"bird","count":3}]}
+{"prompt":"a photo of a black bird and a brown hot dog","tag":"color_attr","include":[{"class":"bird","count":1,"color":"black"},{"class":"hot dog","count":1,"color":"brown"}]}
+{"prompt":"a photo of a truck below a donut","tag":"position","include":[{"class":"donut","count":1},{"class":"truck","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a chair left of a tv remote","tag":"position","include":[{"class":"tv remote","count":1},{"class":"chair","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a white fork and a brown kite","tag":"color_attr","include":[{"class":"fork","count":1,"color":"white"},{"class":"kite","count":1,"color":"brown"}]}
+{"prompt":"a photo of two spoons","tag":"counting","include":[{"class":"spoon","count":2}],"exclude":[{"class":"spoon","count":3}]}
+{"prompt":"a photo of two broccolis","tag":"counting","include":[{"class":"broccoli","count":2}],"exclude":[{"class":"broccoli","count":3}]}
+{"prompt":"a photo of a refrigerator right of an apple","tag":"position","include":[{"class":"apple","count":1},{"class":"refrigerator","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of an orange and a bed","tag":"two_object","include":[{"class":"orange","count":1},{"class":"bed","count":1}]}
+{"prompt":"a photo of a yellow bear","tag":"colors","include":[{"class":"bear","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a blue tv remote","tag":"colors","include":[{"class":"tv remote","count":1,"color":"blue"}]}
+{"prompt":"a photo of a purple hair drier and an orange microwave","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"purple"},{"class":"microwave","count":1,"color":"orange"}]}
+{"prompt":"a photo of two books","tag":"counting","include":[{"class":"book","count":2}],"exclude":[{"class":"book","count":3}]}
+{"prompt":"a photo of a blue carrot and a purple snowboard","tag":"color_attr","include":[{"class":"carrot","count":1,"color":"blue"},{"class":"snowboard","count":1,"color":"purple"}]}
+{"prompt":"a photo of four cats","tag":"counting","include":[{"class":"cat","count":4}],"exclude":[{"class":"cat","count":5}]}
+{"prompt":"a photo of a red bed","tag":"colors","include":[{"class":"bed","count":1,"color":"red"}]}
+{"prompt":"a photo of a green dining table and an orange baseball glove","tag":"color_attr","include":[{"class":"dining table","count":1,"color":"green"},{"class":"baseball glove","count":1,"color":"orange"}]}
+{"prompt":"a photo of a fire hydrant right of a sandwich","tag":"position","include":[{"class":"sandwich","count":1},{"class":"fire hydrant","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a stop sign and a fire hydrant","tag":"two_object","include":[{"class":"stop sign","count":1},{"class":"fire hydrant","count":1}]}
+{"prompt":"a photo of a blue bicycle and an orange backpack","tag":"color_attr","include":[{"class":"bicycle","count":1,"color":"blue"},{"class":"backpack","count":1,"color":"orange"}]}
+{"prompt":"a photo of a yellow computer keyboard and a black zebra","tag":"color_attr","include":[{"class":"computer keyboard","count":1,"color":"yellow"},{"class":"zebra","count":1,"color":"black"}]}
+{"prompt":"a photo of two dining tables","tag":"counting","include":[{"class":"dining table","count":2}],"exclude":[{"class":"dining table","count":3}]}
+{"prompt":"a photo of a black fire hydrant and a blue dining table","tag":"color_attr","include":[{"class":"fire hydrant","count":1,"color":"black"},{"class":"dining table","count":1,"color":"blue"}]}
+{"prompt":"a photo of a brown toaster and a yellow tv remote","tag":"color_attr","include":[{"class":"toaster","count":1,"color":"brown"},{"class":"tv remote","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a dog and a traffic light","tag":"two_object","include":[{"class":"dog","count":1},{"class":"traffic light","count":1}]}
+{"prompt":"a photo of an orange sports ball and a white spoon","tag":"color_attr","include":[{"class":"sports ball","count":1,"color":"orange"},{"class":"spoon","count":1,"color":"white"}]}
+{"prompt":"a photo of three dogs","tag":"counting","include":[{"class":"dog","count":3}],"exclude":[{"class":"dog","count":4}]}
+{"prompt":"a photo of a black sports ball and a purple scissors","tag":"color_attr","include":[{"class":"sports ball","count":1,"color":"black"},{"class":"scissors","count":1,"color":"purple"}]}
+{"prompt":"a photo of two kites","tag":"counting","include":[{"class":"kite","count":2}],"exclude":[{"class":"kite","count":3}]}
+{"prompt":"a photo of three toothbrushs","tag":"counting","include":[{"class":"toothbrush","count":3}],"exclude":[{"class":"toothbrush","count":4}]}
+{"prompt":"a photo of a yellow cat","tag":"colors","include":[{"class":"cat","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a skateboard and a clock","tag":"two_object","include":[{"class":"skateboard","count":1},{"class":"clock","count":1}]}
+{"prompt":"a photo of a suitcase left of a zebra","tag":"position","include":[{"class":"zebra","count":1},{"class":"suitcase","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a cow left of a chair","tag":"position","include":[{"class":"chair","count":1},{"class":"cow","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of four trucks","tag":"counting","include":[{"class":"truck","count":4}],"exclude":[{"class":"truck","count":5}]}
+{"prompt":"a photo of a carrot and a truck","tag":"two_object","include":[{"class":"carrot","count":1},{"class":"truck","count":1}]}
+{"prompt":"a photo of a dining table left of a sports ball","tag":"position","include":[{"class":"sports ball","count":1},{"class":"dining table","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a skis above a snowboard","tag":"position","include":[{"class":"snowboard","count":1},{"class":"skis","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a book left of a tv","tag":"position","include":[{"class":"tv","count":1},{"class":"book","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of four forks","tag":"counting","include":[{"class":"fork","count":4}],"exclude":[{"class":"fork","count":5}]}
+{"prompt":"a photo of four skises","tag":"counting","include":[{"class":"skis","count":4}],"exclude":[{"class":"skis","count":5}]}
+{"prompt":"a photo of a red fire hydrant and a brown scissors","tag":"color_attr","include":[{"class":"fire hydrant","count":1,"color":"red"},{"class":"scissors","count":1,"color":"brown"}]}
+{"prompt":"a photo of three airplanes","tag":"counting","include":[{"class":"airplane","count":3}],"exclude":[{"class":"airplane","count":4}]}
+{"prompt":"a photo of a purple bottle","tag":"colors","include":[{"class":"bottle","count":1,"color":"purple"}]}
+{"prompt":"a photo of three chairs","tag":"counting","include":[{"class":"chair","count":3}],"exclude":[{"class":"chair","count":4}]}
+{"prompt":"a photo of a blue vase and a yellow dog","tag":"color_attr","include":[{"class":"vase","count":1,"color":"blue"},{"class":"dog","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a bear and a toothbrush","tag":"two_object","include":[{"class":"bear","count":1},{"class":"toothbrush","count":1}]}
+{"prompt":"a photo of a skateboard below a scissors","tag":"position","include":[{"class":"scissors","count":1},{"class":"skateboard","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a white knife","tag":"colors","include":[{"class":"knife","count":1,"color":"white"}]}
+{"prompt":"a photo of four umbrellas","tag":"counting","include":[{"class":"umbrella","count":4}],"exclude":[{"class":"umbrella","count":5}]}
+{"prompt":"a photo of three donuts","tag":"counting","include":[{"class":"donut","count":3}],"exclude":[{"class":"donut","count":4}]}
+{"prompt":"a photo of four motorcycles","tag":"counting","include":[{"class":"motorcycle","count":4}],"exclude":[{"class":"motorcycle","count":5}]}
+{"prompt":"a photo of a brown frisbee and a white tennis racket","tag":"color_attr","include":[{"class":"frisbee","count":1,"color":"brown"},{"class":"tennis racket","count":1,"color":"white"}]}
+{"prompt":"a photo of four couchs","tag":"counting","include":[{"class":"couch","count":4}],"exclude":[{"class":"couch","count":5}]}
+{"prompt":"a photo of a white tv remote and a yellow bench","tag":"color_attr","include":[{"class":"tv remote","count":1,"color":"white"},{"class":"bench","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a blue apple and a brown fork","tag":"color_attr","include":[{"class":"apple","count":1,"color":"blue"},{"class":"fork","count":1,"color":"brown"}]}
+{"prompt":"a photo of three potted plants","tag":"counting","include":[{"class":"potted plant","count":3}],"exclude":[{"class":"potted plant","count":4}]}
+{"prompt":"a photo of a kite left of a vase","tag":"position","include":[{"class":"vase","count":1},{"class":"kite","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a blue zebra and a brown clock","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"blue"},{"class":"clock","count":1,"color":"brown"}]}
+{"prompt":"a photo of a laptop and a skateboard","tag":"two_object","include":[{"class":"laptop","count":1},{"class":"skateboard","count":1}]}
+{"prompt":"a photo of a sheep above a potted plant","tag":"position","include":[{"class":"potted plant","count":1},{"class":"sheep","count":1,"position":["above",0]}]}
+{"prompt":"a photo of three tv remotes","tag":"counting","include":[{"class":"tv remote","count":3}],"exclude":[{"class":"tv remote","count":4}]}
+{"prompt":"a photo of three traffic lights","tag":"counting","include":[{"class":"traffic light","count":3}],"exclude":[{"class":"traffic light","count":4}]}
+{"prompt":"a photo of a green apple and a purple donut","tag":"color_attr","include":[{"class":"apple","count":1,"color":"green"},{"class":"donut","count":1,"color":"purple"}]}
+{"prompt":"a photo of a computer mouse left of an elephant","tag":"position","include":[{"class":"elephant","count":1},{"class":"computer mouse","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of three bears","tag":"counting","include":[{"class":"bear","count":3}],"exclude":[{"class":"bear","count":4}]}
+{"prompt":"a photo of a toaster above a cow","tag":"position","include":[{"class":"cow","count":1},{"class":"toaster","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a wine glass and a pizza","tag":"two_object","include":[{"class":"wine glass","count":1},{"class":"pizza","count":1}]}
+{"prompt":"a photo of a couch below a knife","tag":"position","include":[{"class":"knife","count":1},{"class":"couch","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a purple motorcycle and a white sports ball","tag":"color_attr","include":[{"class":"motorcycle","count":1,"color":"purple"},{"class":"sports ball","count":1,"color":"white"}]}
+{"prompt":"a photo of a blue airplane and a yellow oven","tag":"color_attr","include":[{"class":"airplane","count":1,"color":"blue"},{"class":"oven","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a handbag and a vase","tag":"two_object","include":[{"class":"handbag","count":1},{"class":"vase","count":1}]}
+{"prompt":"a photo of a tennis racket right of a chair","tag":"position","include":[{"class":"chair","count":1},{"class":"tennis racket","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a yellow zebra and a black cell phone","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"yellow"},{"class":"cell phone","count":1,"color":"black"}]}
+{"prompt":"a photo of two knifes","tag":"counting","include":[{"class":"knife","count":2}],"exclude":[{"class":"knife","count":3}]}
+{"prompt":"a photo of three bicycles","tag":"counting","include":[{"class":"bicycle","count":3}],"exclude":[{"class":"bicycle","count":4}]}
+{"prompt":"a photo of a person left of a cake","tag":"position","include":[{"class":"cake","count":1},{"class":"person","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a snowboard and an apple","tag":"two_object","include":[{"class":"snowboard","count":1},{"class":"apple","count":1}]}
+{"prompt":"a photo of a blue kite and a pink apple","tag":"color_attr","include":[{"class":"kite","count":1,"color":"blue"},{"class":"apple","count":1,"color":"pink"}]}
+{"prompt":"a photo of a purple refrigerator and a pink hot dog","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"purple"},{"class":"hot dog","count":1,"color":"pink"}]}
+{"prompt":"a photo of a skateboard left of a toaster","tag":"position","include":[{"class":"toaster","count":1},{"class":"skateboard","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a brown pizza","tag":"colors","include":[{"class":"pizza","count":1,"color":"brown"}]}
+{"prompt":"a photo of a black sheep and a yellow apple","tag":"color_attr","include":[{"class":"sheep","count":1,"color":"black"},{"class":"apple","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a green refrigerator","tag":"colors","include":[{"class":"refrigerator","count":1,"color":"green"}]}
+{"prompt":"a photo of two chairs","tag":"counting","include":[{"class":"chair","count":2}],"exclude":[{"class":"chair","count":3}]}
+{"prompt":"a photo of a pink sink","tag":"colors","include":[{"class":"sink","count":1,"color":"pink"}]}
+{"prompt":"a photo of a black car","tag":"colors","include":[{"class":"car","count":1,"color":"black"}]}
+{"prompt":"a photo of three umbrellas","tag":"counting","include":[{"class":"umbrella","count":3}],"exclude":[{"class":"umbrella","count":4}]}
+{"prompt":"a photo of a yellow broccoli and a brown bear","tag":"color_attr","include":[{"class":"broccoli","count":1,"color":"yellow"},{"class":"bear","count":1,"color":"brown"}]}
+{"prompt":"a photo of a person and a pizza","tag":"two_object","include":[{"class":"person","count":1},{"class":"pizza","count":1}]}
+{"prompt":"a photo of an orange horse and a brown fork","tag":"color_attr","include":[{"class":"horse","count":1,"color":"orange"},{"class":"fork","count":1,"color":"brown"}]}
+{"prompt":"a photo of a black broccoli","tag":"colors","include":[{"class":"broccoli","count":1,"color":"black"}]}
+{"prompt":"a photo of a black motorcycle and a purple vase","tag":"color_attr","include":[{"class":"motorcycle","count":1,"color":"black"},{"class":"vase","count":1,"color":"purple"}]}
+{"prompt":"a photo of a truck above a baseball glove","tag":"position","include":[{"class":"baseball glove","count":1},{"class":"truck","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a bed and a fire hydrant","tag":"two_object","include":[{"class":"bed","count":1},{"class":"fire hydrant","count":1}]}
+{"prompt":"a photo of a baseball bat and a donut","tag":"two_object","include":[{"class":"baseball bat","count":1},{"class":"donut","count":1}]}
+{"prompt":"a photo of a dining table and a motorcycle","tag":"two_object","include":[{"class":"dining table","count":1},{"class":"motorcycle","count":1}]}
+{"prompt":"a photo of a brown carrot and a purple parking meter","tag":"color_attr","include":[{"class":"carrot","count":1,"color":"brown"},{"class":"parking meter","count":1,"color":"purple"}]}
+{"prompt":"a photo of a white refrigerator and a yellow vase","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"white"},{"class":"vase","count":1,"color":"yellow"}]}
+{"prompt":"a photo of four toilets","tag":"counting","include":[{"class":"toilet","count":4}],"exclude":[{"class":"toilet","count":5}]}
+{"prompt":"a photo of a suitcase below a pizza","tag":"position","include":[{"class":"pizza","count":1},{"class":"suitcase","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a hair drier above a backpack","tag":"position","include":[{"class":"backpack","count":1},{"class":"hair drier","count":1,"position":["above",0]}]}
+{"prompt":"a photo of an orange couch and a blue bus","tag":"color_attr","include":[{"class":"couch","count":1,"color":"orange"},{"class":"bus","count":1,"color":"blue"}]}
+{"prompt":"a photo of a green computer mouse and a yellow frisbee","tag":"color_attr","include":[{"class":"computer mouse","count":1,"color":"green"},{"class":"frisbee","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a red computer keyboard and a brown oven","tag":"color_attr","include":[{"class":"computer keyboard","count":1,"color":"red"},{"class":"oven","count":1,"color":"brown"}]}
+{"prompt":"a photo of a tv below a tv remote","tag":"position","include":[{"class":"tv remote","count":1},{"class":"tv","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a purple stop sign and a blue fire hydrant","tag":"color_attr","include":[{"class":"stop sign","count":1,"color":"purple"},{"class":"fire hydrant","count":1,"color":"blue"}]}
+{"prompt":"a photo of a white hot dog","tag":"colors","include":[{"class":"hot dog","count":1,"color":"white"}]}
+{"prompt":"a photo of a bicycle left of a wine glass","tag":"position","include":[{"class":"wine glass","count":1},{"class":"bicycle","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of four oranges","tag":"counting","include":[{"class":"orange","count":4}],"exclude":[{"class":"orange","count":5}]}
+{"prompt":"a photo of two sinks","tag":"counting","include":[{"class":"sink","count":2}],"exclude":[{"class":"sink","count":3}]}
+{"prompt":"a photo of a bird right of a bed","tag":"position","include":[{"class":"bed","count":1},{"class":"bird","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a blue toaster and a brown dining table","tag":"color_attr","include":[{"class":"toaster","count":1,"color":"blue"},{"class":"dining table","count":1,"color":"brown"}]}
+{"prompt":"a photo of a clock and a giraffe","tag":"two_object","include":[{"class":"clock","count":1},{"class":"giraffe","count":1}]}
+{"prompt":"a photo of a pink bicycle and a red handbag","tag":"color_attr","include":[{"class":"bicycle","count":1,"color":"pink"},{"class":"handbag","count":1,"color":"red"}]}
+{"prompt":"a photo of a green orange and a brown bear","tag":"color_attr","include":[{"class":"orange","count":1,"color":"green"},{"class":"bear","count":1,"color":"brown"}]}
+{"prompt":"a photo of a zebra and a dog","tag":"two_object","include":[{"class":"zebra","count":1},{"class":"dog","count":1}]}
+{"prompt":"a photo of a yellow toaster and a black bus","tag":"color_attr","include":[{"class":"toaster","count":1,"color":"yellow"},{"class":"bus","count":1,"color":"black"}]}
+{"prompt":"a photo of a red oven","tag":"colors","include":[{"class":"oven","count":1,"color":"red"}]}
+{"prompt":"a photo of a pink clock and a blue baseball glove","tag":"color_attr","include":[{"class":"clock","count":1,"color":"pink"},{"class":"baseball glove","count":1,"color":"blue"}]}
+{"prompt":"a photo of four birds","tag":"counting","include":[{"class":"bird","count":4}],"exclude":[{"class":"bird","count":5}]}
+{"prompt":"a photo of a bear below a cake","tag":"position","include":[{"class":"cake","count":1},{"class":"bear","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a clock and a chair","tag":"two_object","include":[{"class":"clock","count":1},{"class":"chair","count":1}]}
+{"prompt":"a photo of a brown tv remote and a blue handbag","tag":"color_attr","include":[{"class":"tv remote","count":1,"color":"brown"},{"class":"handbag","count":1,"color":"blue"}]}
+{"prompt":"a photo of a cake right of a parking meter","tag":"position","include":[{"class":"parking meter","count":1},{"class":"cake","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a train above a scissors","tag":"position","include":[{"class":"scissors","count":1},{"class":"train","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a red cow","tag":"colors","include":[{"class":"cow","count":1,"color":"red"}]}
+{"prompt":"a photo of a green hair drier and a pink motorcycle","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"green"},{"class":"motorcycle","count":1,"color":"pink"}]}
+{"prompt":"a photo of a stop sign and a bed","tag":"two_object","include":[{"class":"stop sign","count":1},{"class":"bed","count":1}]}
+{"prompt":"a photo of an umbrella and a kite","tag":"two_object","include":[{"class":"umbrella","count":1},{"class":"kite","count":1}]}
+{"prompt":"a photo of an orange microwave and a white spoon","tag":"color_attr","include":[{"class":"microwave","count":1,"color":"orange"},{"class":"spoon","count":1,"color":"white"}]}
+{"prompt":"a photo of an airplane and a banana","tag":"two_object","include":[{"class":"airplane","count":1},{"class":"banana","count":1}]}
+{"prompt":"a photo of a yellow cow and a black wine glass","tag":"color_attr","include":[{"class":"cow","count":1,"color":"yellow"},{"class":"wine glass","count":1,"color":"black"}]}
+{"prompt":"a photo of a black backpack and a red cow","tag":"color_attr","include":[{"class":"backpack","count":1,"color":"black"},{"class":"cow","count":1,"color":"red"}]}
+{"prompt":"a photo of a broccoli and a boat","tag":"two_object","include":[{"class":"broccoli","count":1},{"class":"boat","count":1}]}
+{"prompt":"a photo of a chair and a hot dog","tag":"two_object","include":[{"class":"chair","count":1},{"class":"hot dog","count":1}]}
+{"prompt":"a photo of a pink fire hydrant and a red kite","tag":"color_attr","include":[{"class":"fire hydrant","count":1,"color":"pink"},{"class":"kite","count":1,"color":"red"}]}
+{"prompt":"a photo of a vase below a baseball glove","tag":"position","include":[{"class":"baseball glove","count":1},{"class":"vase","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a blue dining table and a green computer keyboard","tag":"color_attr","include":[{"class":"dining table","count":1,"color":"blue"},{"class":"computer keyboard","count":1,"color":"green"}]}
+{"prompt":"a photo of a blue cell phone and a white sports ball","tag":"color_attr","include":[{"class":"cell phone","count":1,"color":"blue"},{"class":"sports ball","count":1,"color":"white"}]}
+{"prompt":"a photo of three cats","tag":"counting","include":[{"class":"cat","count":3}],"exclude":[{"class":"cat","count":4}]}
+{"prompt":"a photo of a brown parking meter","tag":"colors","include":[{"class":"parking meter","count":1,"color":"brown"}]}
+{"prompt":"a photo of a traffic light and a baseball bat","tag":"two_object","include":[{"class":"traffic light","count":1},{"class":"baseball bat","count":1}]}
+{"prompt":"a photo of a kite and a banana","tag":"two_object","include":[{"class":"kite","count":1},{"class":"banana","count":1}]}
+{"prompt":"a photo of a white toothbrush and a green cup","tag":"color_attr","include":[{"class":"toothbrush","count":1,"color":"white"},{"class":"cup","count":1,"color":"green"}]}
+{"prompt":"a photo of a stop sign above a sports ball","tag":"position","include":[{"class":"sports ball","count":1},{"class":"stop sign","count":1,"position":["above",0]}]}
+{"prompt":"a photo of two cakes","tag":"counting","include":[{"class":"cake","count":2}],"exclude":[{"class":"cake","count":3}]}
+{"prompt":"a photo of four scissorses","tag":"counting","include":[{"class":"scissors","count":4}],"exclude":[{"class":"scissors","count":5}]}
+{"prompt":"a photo of a bowl right of a motorcycle","tag":"position","include":[{"class":"motorcycle","count":1},{"class":"bowl","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a boat and a cup","tag":"two_object","include":[{"class":"boat","count":1},{"class":"cup","count":1}]}
+{"prompt":"a photo of three tvs","tag":"counting","include":[{"class":"tv","count":3}],"exclude":[{"class":"tv","count":4}]}
+{"prompt":"a photo of a pink tennis racket and a green baseball glove","tag":"color_attr","include":[{"class":"tennis racket","count":1,"color":"pink"},{"class":"baseball glove","count":1,"color":"green"}]}
+{"prompt":"a photo of two computer keyboards","tag":"counting","include":[{"class":"computer keyboard","count":2}],"exclude":[{"class":"computer keyboard","count":3}]}
+{"prompt":"a photo of a black traffic light and a white umbrella","tag":"color_attr","include":[{"class":"traffic light","count":1,"color":"black"},{"class":"umbrella","count":1,"color":"white"}]}
+{"prompt":"a photo of a yellow suitcase and a green bottle","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"yellow"},{"class":"bottle","count":1,"color":"green"}]}
+{"prompt":"a photo of an orange suitcase and a yellow bench","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"orange"},{"class":"bench","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a book and a sports ball","tag":"two_object","include":[{"class":"book","count":1},{"class":"sports ball","count":1}]}
+{"prompt":"a photo of a kite left of a broccoli","tag":"position","include":[{"class":"broccoli","count":1},{"class":"kite","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a sports ball above a cup","tag":"position","include":[{"class":"cup","count":1},{"class":"sports ball","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a pink sheep","tag":"colors","include":[{"class":"sheep","count":1,"color":"pink"}]}
+{"prompt":"a photo of two computer mouses","tag":"counting","include":[{"class":"computer mouse","count":2}],"exclude":[{"class":"computer mouse","count":3}]}
+{"prompt":"a photo of a yellow spoon","tag":"colors","include":[{"class":"spoon","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a white bear","tag":"colors","include":[{"class":"bear","count":1,"color":"white"}]}
+{"prompt":"a photo of four elephants","tag":"counting","include":[{"class":"elephant","count":4}],"exclude":[{"class":"elephant","count":5}]}
+{"prompt":"a photo of a blue motorcycle","tag":"colors","include":[{"class":"motorcycle","count":1,"color":"blue"}]}
+{"prompt":"a photo of a black potted plant and a green parking meter","tag":"color_attr","include":[{"class":"potted plant","count":1,"color":"black"},{"class":"parking meter","count":1,"color":"green"}]}
+{"prompt":"a photo of four cell phones","tag":"counting","include":[{"class":"cell phone","count":4}],"exclude":[{"class":"cell phone","count":5}]}
+{"prompt":"a photo of a purple hot dog and a green fork","tag":"color_attr","include":[{"class":"hot dog","count":1,"color":"purple"},{"class":"fork","count":1,"color":"green"}]}
+{"prompt":"a photo of a truck above a sink","tag":"position","include":[{"class":"sink","count":1},{"class":"truck","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a white wine glass and a red hot dog","tag":"color_attr","include":[{"class":"wine glass","count":1,"color":"white"},{"class":"hot dog","count":1,"color":"red"}]}
+{"prompt":"a photo of a purple zebra and a yellow laptop","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"purple"},{"class":"laptop","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a toothbrush and a motorcycle","tag":"two_object","include":[{"class":"toothbrush","count":1},{"class":"motorcycle","count":1}]}
+{"prompt":"a photo of a tie and a bear","tag":"two_object","include":[{"class":"tie","count":1},{"class":"bear","count":1}]}
+{"prompt":"a photo of a green potted plant and a yellow microwave","tag":"color_attr","include":[{"class":"potted plant","count":1,"color":"green"},{"class":"microwave","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a brown sports ball and a pink traffic light","tag":"color_attr","include":[{"class":"sports ball","count":1,"color":"brown"},{"class":"traffic light","count":1,"color":"pink"}]}
+{"prompt":"a photo of a dog right of a suitcase","tag":"position","include":[{"class":"suitcase","count":1},{"class":"dog","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a tie below a giraffe","tag":"position","include":[{"class":"giraffe","count":1},{"class":"tie","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a pink banana","tag":"colors","include":[{"class":"banana","count":1,"color":"pink"}]}
+{"prompt":"a photo of a book and a potted plant","tag":"two_object","include":[{"class":"book","count":1},{"class":"potted plant","count":1}]}
+{"prompt":"a photo of two suitcases","tag":"counting","include":[{"class":"suitcase","count":2}],"exclude":[{"class":"suitcase","count":3}]}
+{"prompt":"a photo of a bottle and a cell phone","tag":"two_object","include":[{"class":"bottle","count":1},{"class":"cell phone","count":1}]}
+{"prompt":"a photo of four baseball bats","tag":"counting","include":[{"class":"baseball bat","count":4}],"exclude":[{"class":"baseball bat","count":5}]}
+{"prompt":"a photo of a truck left of a bed","tag":"position","include":[{"class":"bed","count":1},{"class":"truck","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of three beds","tag":"counting","include":[{"class":"bed","count":3}],"exclude":[{"class":"bed","count":4}]}
+{"prompt":"a photo of two buses","tag":"counting","include":[{"class":"bus","count":2}],"exclude":[{"class":"bus","count":3}]}
+{"prompt":"a photo of a traffic light left of a refrigerator","tag":"position","include":[{"class":"refrigerator","count":1},{"class":"traffic light","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a traffic light below a tennis racket","tag":"position","include":[{"class":"tennis racket","count":1},{"class":"traffic light","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a kite and a tie","tag":"two_object","include":[{"class":"kite","count":1},{"class":"tie","count":1}]}
+{"prompt":"a photo of a pink frisbee","tag":"colors","include":[{"class":"frisbee","count":1,"color":"pink"}]}
+{"prompt":"a photo of two boats","tag":"counting","include":[{"class":"boat","count":2}],"exclude":[{"class":"boat","count":3}]}
+{"prompt":"a photo of an orange donut and a pink toaster","tag":"color_attr","include":[{"class":"donut","count":1,"color":"orange"},{"class":"toaster","count":1,"color":"pink"}]}
+{"prompt":"a photo of a clock and a skis","tag":"two_object","include":[{"class":"clock","count":1},{"class":"skis","count":1}]}
+{"prompt":"a photo of a white baseball glove","tag":"colors","include":[{"class":"baseball glove","count":1,"color":"white"}]}
+{"prompt":"a photo of a pink cup and a black potted plant","tag":"color_attr","include":[{"class":"cup","count":1,"color":"pink"},{"class":"potted plant","count":1,"color":"black"}]}
+{"prompt":"a photo of a brown laptop","tag":"colors","include":[{"class":"laptop","count":1,"color":"brown"}]}
+{"prompt":"a photo of a laptop and a baseball glove","tag":"two_object","include":[{"class":"laptop","count":1},{"class":"baseball glove","count":1}]}
+{"prompt":"a photo of a cat above a tv","tag":"position","include":[{"class":"tv","count":1},{"class":"cat","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a bed and a suitcase","tag":"two_object","include":[{"class":"bed","count":1},{"class":"suitcase","count":1}]}
+{"prompt":"a photo of a red bench and a purple bowl","tag":"color_attr","include":[{"class":"bench","count":1,"color":"red"},{"class":"bowl","count":1,"color":"purple"}]}
+{"prompt":"a photo of a blue dog and a white horse","tag":"color_attr","include":[{"class":"dog","count":1,"color":"blue"},{"class":"horse","count":1,"color":"white"}]}
+{"prompt":"a photo of a book right of a dog","tag":"position","include":[{"class":"dog","count":1},{"class":"book","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of an orange pizza and a brown clock","tag":"color_attr","include":[{"class":"pizza","count":1,"color":"orange"},{"class":"clock","count":1,"color":"brown"}]}
+{"prompt":"a photo of a black teddy bear and a red cell phone","tag":"color_attr","include":[{"class":"teddy bear","count":1,"color":"black"},{"class":"cell phone","count":1,"color":"red"}]}
+{"prompt":"a photo of a brown bicycle and a black parking meter","tag":"color_attr","include":[{"class":"bicycle","count":1,"color":"brown"},{"class":"parking meter","count":1,"color":"black"}]}
+{"prompt":"a photo of a white cup and a brown apple","tag":"color_attr","include":[{"class":"cup","count":1,"color":"white"},{"class":"apple","count":1,"color":"brown"}]}
+{"prompt":"a photo of a dining table and an oven","tag":"two_object","include":[{"class":"dining table","count":1},{"class":"oven","count":1}]}
+{"prompt":"a photo of a white motorcycle and a blue suitcase","tag":"color_attr","include":[{"class":"motorcycle","count":1,"color":"white"},{"class":"suitcase","count":1,"color":"blue"}]}
+{"prompt":"a photo of a purple sheep and a green horse","tag":"color_attr","include":[{"class":"sheep","count":1,"color":"purple"},{"class":"horse","count":1,"color":"green"}]}
+{"prompt":"a photo of a brown tv","tag":"colors","include":[{"class":"tv","count":1,"color":"brown"}]}
+{"prompt":"a photo of a green kite and a yellow zebra","tag":"color_attr","include":[{"class":"kite","count":1,"color":"green"},{"class":"zebra","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a bowl below a dining table","tag":"position","include":[{"class":"dining table","count":1},{"class":"bowl","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a yellow motorcycle","tag":"colors","include":[{"class":"motorcycle","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a white tv and a blue scissors","tag":"color_attr","include":[{"class":"tv","count":1,"color":"white"},{"class":"scissors","count":1,"color":"blue"}]}
+{"prompt":"a photo of three microwaves","tag":"counting","include":[{"class":"microwave","count":3}],"exclude":[{"class":"microwave","count":4}]}
+{"prompt":"a photo of a cell phone and a cat","tag":"two_object","include":[{"class":"cell phone","count":1},{"class":"cat","count":1}]}
+{"prompt":"a photo of a white tv remote and a blue handbag","tag":"color_attr","include":[{"class":"tv remote","count":1,"color":"white"},{"class":"handbag","count":1,"color":"blue"}]}
+{"prompt":"a photo of an orange zebra and a red toothbrush","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"orange"},{"class":"toothbrush","count":1,"color":"red"}]}
+{"prompt":"a photo of four bananas","tag":"counting","include":[{"class":"banana","count":4}],"exclude":[{"class":"banana","count":5}]}
+{"prompt":"a photo of a microwave above a vase","tag":"position","include":[{"class":"vase","count":1},{"class":"microwave","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a hot dog and a toilet","tag":"two_object","include":[{"class":"hot dog","count":1},{"class":"toilet","count":1}]}
+{"prompt":"a photo of a brown backpack","tag":"colors","include":[{"class":"backpack","count":1,"color":"brown"}]}
+{"prompt":"a photo of an elephant and a frisbee","tag":"two_object","include":[{"class":"elephant","count":1},{"class":"frisbee","count":1}]}
+{"prompt":"a photo of a pink hair drier and an orange tv remote","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"pink"},{"class":"tv remote","count":1,"color":"orange"}]}
+{"prompt":"a photo of a frisbee left of a train","tag":"position","include":[{"class":"train","count":1},{"class":"frisbee","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of an orange toilet and a black umbrella","tag":"color_attr","include":[{"class":"toilet","count":1,"color":"orange"},{"class":"umbrella","count":1,"color":"black"}]}
+{"prompt":"a photo of a brown elephant and a green bicycle","tag":"color_attr","include":[{"class":"elephant","count":1,"color":"brown"},{"class":"bicycle","count":1,"color":"green"}]}
+{"prompt":"a photo of a donut and a chair","tag":"two_object","include":[{"class":"donut","count":1},{"class":"chair","count":1}]}
+{"prompt":"a photo of a white truck and a black bird","tag":"color_attr","include":[{"class":"truck","count":1,"color":"white"},{"class":"bird","count":1,"color":"black"}]}
+{"prompt":"a photo of a brown computer mouse and a black vase","tag":"color_attr","include":[{"class":"computer mouse","count":1,"color":"brown"},{"class":"vase","count":1,"color":"black"}]}
+{"prompt":"a photo of a bottle and a snowboard","tag":"two_object","include":[{"class":"bottle","count":1},{"class":"snowboard","count":1}]}
+{"prompt":"a photo of a hot dog and a microwave","tag":"two_object","include":[{"class":"hot dog","count":1},{"class":"microwave","count":1}]}
+{"prompt":"a photo of a book right of a sink","tag":"position","include":[{"class":"sink","count":1},{"class":"book","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of two bottles","tag":"counting","include":[{"class":"bottle","count":2}],"exclude":[{"class":"bottle","count":3}]}
+{"prompt":"a photo of a scissors left of a couch","tag":"position","include":[{"class":"couch","count":1},{"class":"scissors","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a horse and a tie","tag":"two_object","include":[{"class":"horse","count":1},{"class":"tie","count":1}]}
+{"prompt":"a photo of three skateboards","tag":"counting","include":[{"class":"skateboard","count":3}],"exclude":[{"class":"skateboard","count":4}]}
+{"prompt":"a photo of a blue computer keyboard and a brown teddy bear","tag":"color_attr","include":[{"class":"computer keyboard","count":1,"color":"blue"},{"class":"teddy bear","count":1,"color":"brown"}]}
+{"prompt":"a photo of a red stop sign and a green frisbee","tag":"color_attr","include":[{"class":"stop sign","count":1,"color":"red"},{"class":"frisbee","count":1,"color":"green"}]}
+{"prompt":"a photo of a yellow suitcase and a purple car","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"yellow"},{"class":"car","count":1,"color":"purple"}]}
+{"prompt":"a photo of a sandwich and a parking meter","tag":"two_object","include":[{"class":"sandwich","count":1},{"class":"parking meter","count":1}]}
+{"prompt":"a photo of a brown potted plant and a black snowboard","tag":"color_attr","include":[{"class":"potted plant","count":1,"color":"brown"},{"class":"snowboard","count":1,"color":"black"}]}
+{"prompt":"a photo of a chair and a person","tag":"two_object","include":[{"class":"chair","count":1},{"class":"person","count":1}]}
+{"prompt":"a photo of a pink backpack","tag":"colors","include":[{"class":"backpack","count":1,"color":"pink"}]}
+{"prompt":"a photo of four cakes","tag":"counting","include":[{"class":"cake","count":4}],"exclude":[{"class":"cake","count":5}]}
+{"prompt":"a photo of a cake above a suitcase","tag":"position","include":[{"class":"suitcase","count":1},{"class":"cake","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a baseball glove and a computer mouse","tag":"two_object","include":[{"class":"baseball glove","count":1},{"class":"computer mouse","count":1}]}
+{"prompt":"a photo of a green spoon and a white sheep","tag":"color_attr","include":[{"class":"spoon","count":1,"color":"green"},{"class":"sheep","count":1,"color":"white"}]}
+{"prompt":"a photo of a black frisbee and a red parking meter","tag":"color_attr","include":[{"class":"frisbee","count":1,"color":"black"},{"class":"parking meter","count":1,"color":"red"}]}
+{"prompt":"a photo of a purple skateboard and a pink airplane","tag":"color_attr","include":[{"class":"skateboard","count":1,"color":"purple"},{"class":"airplane","count":1,"color":"pink"}]}
+{"prompt":"a photo of a bottle below a zebra","tag":"position","include":[{"class":"zebra","count":1},{"class":"bottle","count":1,"position":["below",0]}]}
+{"prompt":"a photo of four tv remotes","tag":"counting","include":[{"class":"tv remote","count":4}],"exclude":[{"class":"tv remote","count":5}]}
+{"prompt":"a photo of a banana and a horse","tag":"two_object","include":[{"class":"banana","count":1},{"class":"horse","count":1}]}
+{"prompt":"a photo of a sandwich above a suitcase","tag":"position","include":[{"class":"suitcase","count":1},{"class":"sandwich","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a purple apple and a blue toilet","tag":"color_attr","include":[{"class":"apple","count":1,"color":"purple"},{"class":"toilet","count":1,"color":"blue"}]}
+{"prompt":"a photo of a brown bowl","tag":"colors","include":[{"class":"bowl","count":1,"color":"brown"}]}
+{"prompt":"a photo of a yellow suitcase and a brown snowboard","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"yellow"},{"class":"snowboard","count":1,"color":"brown"}]}
+{"prompt":"a photo of two stop signs","tag":"counting","include":[{"class":"stop sign","count":2}],"exclude":[{"class":"stop sign","count":3}]}
+{"prompt":"a photo of a black book and a red airplane","tag":"color_attr","include":[{"class":"book","count":1,"color":"black"},{"class":"airplane","count":1,"color":"red"}]}
+{"prompt":"a photo of two tvs","tag":"counting","include":[{"class":"tv","count":2}],"exclude":[{"class":"tv","count":3}]}
+{"prompt":"a photo of an orange right of an apple","tag":"position","include":[{"class":"apple","count":1},{"class":"orange","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of two tennis rackets","tag":"counting","include":[{"class":"tennis racket","count":2}],"exclude":[{"class":"tennis racket","count":3}]}
+{"prompt":"a photo of a pink backpack and a blue carrot","tag":"color_attr","include":[{"class":"backpack","count":1,"color":"pink"},{"class":"carrot","count":1,"color":"blue"}]}
+{"prompt":"a photo of a backpack above a bear","tag":"position","include":[{"class":"bear","count":1},{"class":"backpack","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a sandwich right of a skis","tag":"position","include":[{"class":"skis","count":1},{"class":"sandwich","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of two skises","tag":"counting","include":[{"class":"skis","count":2}],"exclude":[{"class":"skis","count":3}]}
+{"prompt":"a photo of a pink snowboard","tag":"colors","include":[{"class":"snowboard","count":1,"color":"pink"}]}
+{"prompt":"a photo of a yellow baseball bat and a blue sink","tag":"color_attr","include":[{"class":"baseball bat","count":1,"color":"yellow"},{"class":"sink","count":1,"color":"blue"}]}
+{"prompt":"a photo of a blue donut and an orange fork","tag":"color_attr","include":[{"class":"donut","count":1,"color":"blue"},{"class":"fork","count":1,"color":"orange"}]}
+{"prompt":"a photo of a truck and a tie","tag":"two_object","include":[{"class":"truck","count":1},{"class":"tie","count":1}]}
+{"prompt":"a photo of a dog and a bus","tag":"two_object","include":[{"class":"dog","count":1},{"class":"bus","count":1}]}
+{"prompt":"a photo of a white dining table and a red bottle","tag":"color_attr","include":[{"class":"dining table","count":1,"color":"white"},{"class":"bottle","count":1,"color":"red"}]}
+{"prompt":"a photo of a scissors left of a boat","tag":"position","include":[{"class":"boat","count":1},{"class":"scissors","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a baseball glove right of a tie","tag":"position","include":[{"class":"tie","count":1},{"class":"baseball glove","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of two dogs","tag":"counting","include":[{"class":"dog","count":2}],"exclude":[{"class":"dog","count":3}]}
+{"prompt":"a photo of four bicycles","tag":"counting","include":[{"class":"bicycle","count":4}],"exclude":[{"class":"bicycle","count":5}]}
+{"prompt":"a photo of a yellow bench","tag":"colors","include":[{"class":"bench","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a purple bear and a blue donut","tag":"color_attr","include":[{"class":"bear","count":1,"color":"purple"},{"class":"donut","count":1,"color":"blue"}]}
+{"prompt":"a photo of two benchs","tag":"counting","include":[{"class":"bench","count":2}],"exclude":[{"class":"bench","count":3}]}
+{"prompt":"a photo of a green stop sign and a pink zebra","tag":"color_attr","include":[{"class":"stop sign","count":1,"color":"green"},{"class":"zebra","count":1,"color":"pink"}]}
+{"prompt":"a photo of a white hot dog and a red donut","tag":"color_attr","include":[{"class":"hot dog","count":1,"color":"white"},{"class":"donut","count":1,"color":"red"}]}
+{"prompt":"a photo of two cows","tag":"counting","include":[{"class":"cow","count":2}],"exclude":[{"class":"cow","count":3}]}
+{"prompt":"a photo of a sandwich right of a handbag","tag":"position","include":[{"class":"handbag","count":1},{"class":"sandwich","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a sink and a baseball bat","tag":"two_object","include":[{"class":"sink","count":1},{"class":"baseball bat","count":1}]}
+{"prompt":"a photo of a train above a cake","tag":"position","include":[{"class":"cake","count":1},{"class":"train","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a white fire hydrant and a purple traffic light","tag":"color_attr","include":[{"class":"fire hydrant","count":1,"color":"white"},{"class":"traffic light","count":1,"color":"purple"}]}
+{"prompt":"a photo of a brown cow and a pink apple","tag":"color_attr","include":[{"class":"cow","count":1,"color":"brown"},{"class":"apple","count":1,"color":"pink"}]}
+{"prompt":"a photo of a sandwich and a sheep","tag":"two_object","include":[{"class":"sandwich","count":1},{"class":"sheep","count":1}]}
+{"prompt":"a photo of a white umbrella","tag":"colors","include":[{"class":"umbrella","count":1,"color":"white"}]}
+{"prompt":"a photo of a white giraffe and an orange toothbrush","tag":"color_attr","include":[{"class":"giraffe","count":1,"color":"white"},{"class":"toothbrush","count":1,"color":"orange"}]}
+{"prompt":"a photo of a red kite","tag":"colors","include":[{"class":"kite","count":1,"color":"red"}]}
+{"prompt":"a photo of two sports balls","tag":"counting","include":[{"class":"sports ball","count":2}],"exclude":[{"class":"sports ball","count":3}]}
+{"prompt":"a photo of a blue airplane and a pink refrigerator","tag":"color_attr","include":[{"class":"airplane","count":1,"color":"blue"},{"class":"refrigerator","count":1,"color":"pink"}]}
+{"prompt":"a photo of a skis right of a sports ball","tag":"position","include":[{"class":"sports ball","count":1},{"class":"skis","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a black broccoli and a blue surfboard","tag":"color_attr","include":[{"class":"broccoli","count":1,"color":"black"},{"class":"surfboard","count":1,"color":"blue"}]}
+{"prompt":"a photo of an orange book and a red vase","tag":"color_attr","include":[{"class":"book","count":1,"color":"orange"},{"class":"vase","count":1,"color":"red"}]}
+{"prompt":"a photo of a backpack left of a sheep","tag":"position","include":[{"class":"sheep","count":1},{"class":"backpack","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of two horses","tag":"counting","include":[{"class":"horse","count":2}],"exclude":[{"class":"horse","count":3}]}
+{"prompt":"a photo of a pink frisbee and a purple refrigerator","tag":"color_attr","include":[{"class":"frisbee","count":1,"color":"pink"},{"class":"refrigerator","count":1,"color":"purple"}]}
+{"prompt":"a photo of a black chair","tag":"colors","include":[{"class":"chair","count":1,"color":"black"}]}
+{"prompt":"a photo of three scissorses","tag":"counting","include":[{"class":"scissors","count":3}],"exclude":[{"class":"scissors","count":4}]}
+{"prompt":"a photo of three dining tables","tag":"counting","include":[{"class":"dining table","count":3}],"exclude":[{"class":"dining table","count":4}]}
+{"prompt":"a photo of a vase and a sandwich","tag":"two_object","include":[{"class":"vase","count":1},{"class":"sandwich","count":1}]}
+{"prompt":"a photo of a tie left of a surfboard","tag":"position","include":[{"class":"surfboard","count":1},{"class":"tie","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a laptop and a bicycle","tag":"two_object","include":[{"class":"laptop","count":1},{"class":"bicycle","count":1}]}
+{"prompt":"a photo of a yellow broccoli and an orange refrigerator","tag":"color_attr","include":[{"class":"broccoli","count":1,"color":"yellow"},{"class":"refrigerator","count":1,"color":"orange"}]}
+{"prompt":"a photo of a yellow baseball bat and a green bed","tag":"color_attr","include":[{"class":"baseball bat","count":1,"color":"yellow"},{"class":"bed","count":1,"color":"green"}]}
+{"prompt":"a photo of a red toothbrush and a white cup","tag":"color_attr","include":[{"class":"toothbrush","count":1,"color":"red"},{"class":"cup","count":1,"color":"white"}]}
+{"prompt":"a photo of three computer mouses","tag":"counting","include":[{"class":"computer mouse","count":3}],"exclude":[{"class":"computer mouse","count":4}]}
+{"prompt":"a photo of a brown bear and an orange cat","tag":"color_attr","include":[{"class":"bear","count":1,"color":"brown"},{"class":"cat","count":1,"color":"orange"}]}
+{"prompt":"a photo of a purple parking meter and a black broccoli","tag":"color_attr","include":[{"class":"parking meter","count":1,"color":"purple"},{"class":"broccoli","count":1,"color":"black"}]}
+{"prompt":"a photo of a blue motorcycle and a white bench","tag":"color_attr","include":[{"class":"motorcycle","count":1,"color":"blue"},{"class":"bench","count":1,"color":"white"}]}
+{"prompt":"a photo of a pink zebra and a brown apple","tag":"color_attr","include":[{"class":"zebra","count":1,"color":"pink"},{"class":"apple","count":1,"color":"brown"}]}
+{"prompt":"a photo of two elephants","tag":"counting","include":[{"class":"elephant","count":2}],"exclude":[{"class":"elephant","count":3}]}
+{"prompt":"a photo of a toothbrush and a wine glass","tag":"two_object","include":[{"class":"toothbrush","count":1},{"class":"wine glass","count":1}]}
+{"prompt":"a photo of an airplane and an elephant","tag":"two_object","include":[{"class":"airplane","count":1},{"class":"elephant","count":1}]}
+{"prompt":"a photo of an orange kite and a green airplane","tag":"color_attr","include":[{"class":"kite","count":1,"color":"orange"},{"class":"airplane","count":1,"color":"green"}]}
+{"prompt":"a photo of a pink kite and a green truck","tag":"color_attr","include":[{"class":"kite","count":1,"color":"pink"},{"class":"truck","count":1,"color":"green"}]}
+{"prompt":"a photo of a brown cake and a green handbag","tag":"color_attr","include":[{"class":"cake","count":1,"color":"brown"},{"class":"handbag","count":1,"color":"green"}]}
+{"prompt":"a photo of a yellow cow and a white clock","tag":"color_attr","include":[{"class":"cow","count":1,"color":"yellow"},{"class":"clock","count":1,"color":"white"}]}
+{"prompt":"a photo of a tv and a backpack","tag":"two_object","include":[{"class":"tv","count":1},{"class":"backpack","count":1}]}
+{"prompt":"a photo of a bench and a toaster","tag":"two_object","include":[{"class":"bench","count":1},{"class":"toaster","count":1}]}
+{"prompt":"a photo of a brown chair and a black cell phone","tag":"color_attr","include":[{"class":"chair","count":1,"color":"brown"},{"class":"cell phone","count":1,"color":"black"}]}
+{"prompt":"a photo of a brown hair drier and a yellow bear","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"brown"},{"class":"bear","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a white wine glass and a yellow book","tag":"color_attr","include":[{"class":"wine glass","count":1,"color":"white"},{"class":"book","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a red orange","tag":"colors","include":[{"class":"orange","count":1,"color":"red"}]}
+{"prompt":"a photo of a spoon below an umbrella","tag":"position","include":[{"class":"umbrella","count":1},{"class":"spoon","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a blue traffic light","tag":"colors","include":[{"class":"traffic light","count":1,"color":"blue"}]}
+{"prompt":"a photo of a red bottle and an orange carrot","tag":"color_attr","include":[{"class":"bottle","count":1,"color":"red"},{"class":"carrot","count":1,"color":"orange"}]}
+{"prompt":"a photo of a tv and an elephant","tag":"two_object","include":[{"class":"tv","count":1},{"class":"elephant","count":1}]}
+{"prompt":"a photo of three cars","tag":"counting","include":[{"class":"car","count":3}],"exclude":[{"class":"car","count":4}]}
+{"prompt":"a photo of a white toothbrush and a brown spoon","tag":"color_attr","include":[{"class":"toothbrush","count":1,"color":"white"},{"class":"spoon","count":1,"color":"brown"}]}
+{"prompt":"a photo of a surfboard and a sports ball","tag":"two_object","include":[{"class":"surfboard","count":1},{"class":"sports ball","count":1}]}
+{"prompt":"a photo of a red bottle and a purple baseball bat","tag":"color_attr","include":[{"class":"bottle","count":1,"color":"red"},{"class":"baseball bat","count":1,"color":"purple"}]}
+{"prompt":"a photo of a banana left of a sheep","tag":"position","include":[{"class":"sheep","count":1},{"class":"banana","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a yellow elephant and a blue parking meter","tag":"color_attr","include":[{"class":"elephant","count":1,"color":"yellow"},{"class":"parking meter","count":1,"color":"blue"}]}
+{"prompt":"a photo of a hair drier left of a computer keyboard","tag":"position","include":[{"class":"computer keyboard","count":1},{"class":"hair drier","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a red sandwich and a yellow snowboard","tag":"color_attr","include":[{"class":"sandwich","count":1,"color":"red"},{"class":"snowboard","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a white banana and a red airplane","tag":"color_attr","include":[{"class":"banana","count":1,"color":"white"},{"class":"airplane","count":1,"color":"red"}]}
+{"prompt":"a photo of a skis left of a traffic light","tag":"position","include":[{"class":"traffic light","count":1},{"class":"skis","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a donut left of a tie","tag":"position","include":[{"class":"tie","count":1},{"class":"donut","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a white airplane and a brown skis","tag":"color_attr","include":[{"class":"airplane","count":1,"color":"white"},{"class":"skis","count":1,"color":"brown"}]}
+{"prompt":"a photo of a cat and a suitcase","tag":"two_object","include":[{"class":"cat","count":1},{"class":"suitcase","count":1}]}
+{"prompt":"a photo of four suitcases","tag":"counting","include":[{"class":"suitcase","count":4}],"exclude":[{"class":"suitcase","count":5}]}
+{"prompt":"a photo of a black parking meter","tag":"colors","include":[{"class":"parking meter","count":1,"color":"black"}]}
+{"prompt":"a photo of a car and a motorcycle","tag":"two_object","include":[{"class":"car","count":1},{"class":"motorcycle","count":1}]}
+{"prompt":"a photo of an orange cake and a black toilet","tag":"color_attr","include":[{"class":"cake","count":1,"color":"orange"},{"class":"toilet","count":1,"color":"black"}]}
+{"prompt":"a photo of an orange and a couch","tag":"two_object","include":[{"class":"orange","count":1},{"class":"couch","count":1}]}
+{"prompt":"a photo of three baseball gloves","tag":"counting","include":[{"class":"baseball glove","count":3}],"exclude":[{"class":"baseball glove","count":4}]}
+{"prompt":"a photo of a green bottle","tag":"colors","include":[{"class":"bottle","count":1,"color":"green"}]}
+{"prompt":"a photo of two toasters","tag":"counting","include":[{"class":"toaster","count":2}],"exclude":[{"class":"toaster","count":3}]}
+{"prompt":"a photo of a pink elephant and a white refrigerator","tag":"color_attr","include":[{"class":"elephant","count":1,"color":"pink"},{"class":"refrigerator","count":1,"color":"white"}]}
+{"prompt":"a photo of two skateboards","tag":"counting","include":[{"class":"skateboard","count":2}],"exclude":[{"class":"skateboard","count":3}]}
+{"prompt":"a photo of a yellow skis","tag":"colors","include":[{"class":"skis","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a cup right of a dining table","tag":"position","include":[{"class":"dining table","count":1},{"class":"cup","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a black suitcase and a yellow elephant","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"black"},{"class":"elephant","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a white boat and a brown cat","tag":"color_attr","include":[{"class":"boat","count":1,"color":"white"},{"class":"cat","count":1,"color":"brown"}]}
+{"prompt":"a photo of a green clock and a black motorcycle","tag":"color_attr","include":[{"class":"clock","count":1,"color":"green"},{"class":"motorcycle","count":1,"color":"black"}]}
+{"prompt":"a photo of an apple left of a sports ball","tag":"position","include":[{"class":"sports ball","count":1},{"class":"apple","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a yellow computer keyboard and a brown teddy bear","tag":"color_attr","include":[{"class":"computer keyboard","count":1,"color":"yellow"},{"class":"teddy bear","count":1,"color":"brown"}]}
+{"prompt":"a photo of a purple traffic light","tag":"colors","include":[{"class":"traffic light","count":1,"color":"purple"}]}
+{"prompt":"a photo of a sandwich and a frisbee","tag":"two_object","include":[{"class":"sandwich","count":1},{"class":"frisbee","count":1}]}
+{"prompt":"a photo of three skises","tag":"counting","include":[{"class":"skis","count":3}],"exclude":[{"class":"skis","count":4}]}
+{"prompt":"a photo of a green fork","tag":"colors","include":[{"class":"fork","count":1,"color":"green"}]}
+{"prompt":"a photo of two forks","tag":"counting","include":[{"class":"fork","count":2}],"exclude":[{"class":"fork","count":3}]}
+{"prompt":"a photo of a red snowboard","tag":"colors","include":[{"class":"snowboard","count":1,"color":"red"}]}
+{"prompt":"a photo of three clocks","tag":"counting","include":[{"class":"clock","count":3}],"exclude":[{"class":"clock","count":4}]}
+{"prompt":"a photo of a brown surfboard","tag":"colors","include":[{"class":"surfboard","count":1,"color":"brown"}]}
+{"prompt":"a photo of a pink zebra","tag":"colors","include":[{"class":"zebra","count":1,"color":"pink"}]}
+{"prompt":"a photo of a purple horse","tag":"colors","include":[{"class":"horse","count":1,"color":"purple"}]}
+{"prompt":"a photo of a computer keyboard below an umbrella","tag":"position","include":[{"class":"umbrella","count":1},{"class":"computer keyboard","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a green banana and a white motorcycle","tag":"color_attr","include":[{"class":"banana","count":1,"color":"green"},{"class":"motorcycle","count":1,"color":"white"}]}
+{"prompt":"a photo of four potted plants","tag":"counting","include":[{"class":"potted plant","count":4}],"exclude":[{"class":"potted plant","count":5}]}
+{"prompt":"a photo of a bicycle and a computer mouse","tag":"two_object","include":[{"class":"bicycle","count":1},{"class":"computer mouse","count":1}]}
+{"prompt":"a photo of a vase and a fork","tag":"two_object","include":[{"class":"vase","count":1},{"class":"fork","count":1}]}
+{"prompt":"a photo of a green teddy bear and a red broccoli","tag":"color_attr","include":[{"class":"teddy bear","count":1,"color":"green"},{"class":"broccoli","count":1,"color":"red"}]}
+{"prompt":"a photo of a black cup and a red cow","tag":"color_attr","include":[{"class":"cup","count":1,"color":"black"},{"class":"cow","count":1,"color":"red"}]}
+{"prompt":"a photo of a brown book and a red sink","tag":"color_attr","include":[{"class":"book","count":1,"color":"brown"},{"class":"sink","count":1,"color":"red"}]}
+{"prompt":"a photo of a black fire hydrant","tag":"colors","include":[{"class":"fire hydrant","count":1,"color":"black"}]}
+{"prompt":"a photo of a purple skis and an orange bird","tag":"color_attr","include":[{"class":"skis","count":1,"color":"purple"},{"class":"bird","count":1,"color":"orange"}]}
+{"prompt":"a photo of a fire hydrant and a bicycle","tag":"two_object","include":[{"class":"fire hydrant","count":1},{"class":"bicycle","count":1}]}
+{"prompt":"a photo of a yellow couch","tag":"colors","include":[{"class":"couch","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a pink truck and a purple horse","tag":"color_attr","include":[{"class":"truck","count":1,"color":"pink"},{"class":"horse","count":1,"color":"purple"}]}
+{"prompt":"a photo of a giraffe and a sink","tag":"two_object","include":[{"class":"giraffe","count":1},{"class":"sink","count":1}]}
+{"prompt":"a photo of a pizza below a parking meter","tag":"position","include":[{"class":"parking meter","count":1},{"class":"pizza","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a purple train and a black bench","tag":"color_attr","include":[{"class":"train","count":1,"color":"purple"},{"class":"bench","count":1,"color":"black"}]}
+{"prompt":"a photo of a green baseball glove and a pink sports ball","tag":"color_attr","include":[{"class":"baseball glove","count":1,"color":"green"},{"class":"sports ball","count":1,"color":"pink"}]}
+{"prompt":"a photo of a green potted plant","tag":"colors","include":[{"class":"potted plant","count":1,"color":"green"}]}
+{"prompt":"a photo of a spoon and a pizza","tag":"two_object","include":[{"class":"spoon","count":1},{"class":"pizza","count":1}]}
+{"prompt":"a photo of a bench below a bird","tag":"position","include":[{"class":"bird","count":1},{"class":"bench","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a purple teddy bear and a blue cell phone","tag":"color_attr","include":[{"class":"teddy bear","count":1,"color":"purple"},{"class":"cell phone","count":1,"color":"blue"}]}
+{"prompt":"a photo of a hot dog left of a scissors","tag":"position","include":[{"class":"scissors","count":1},{"class":"hot dog","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of four cups","tag":"counting","include":[{"class":"cup","count":4}],"exclude":[{"class":"cup","count":5}]}
+{"prompt":"a photo of two couchs","tag":"counting","include":[{"class":"couch","count":2}],"exclude":[{"class":"couch","count":3}]}
+{"prompt":"a photo of a bicycle above a book","tag":"position","include":[{"class":"book","count":1},{"class":"bicycle","count":1,"position":["above",0]}]}
+{"prompt":"a photo of three teddy bears","tag":"counting","include":[{"class":"teddy bear","count":3}],"exclude":[{"class":"teddy bear","count":4}]}
+{"prompt":"a photo of a green bench and a white surfboard","tag":"color_attr","include":[{"class":"bench","count":1,"color":"green"},{"class":"surfboard","count":1,"color":"white"}]}
+{"prompt":"a photo of four hair driers","tag":"counting","include":[{"class":"hair drier","count":4}],"exclude":[{"class":"hair drier","count":5}]}
+{"prompt":"a photo of a brown bottle","tag":"colors","include":[{"class":"bottle","count":1,"color":"brown"}]}
+{"prompt":"a photo of four cows","tag":"counting","include":[{"class":"cow","count":4}],"exclude":[{"class":"cow","count":5}]}
+{"prompt":"a photo of two surfboards","tag":"counting","include":[{"class":"surfboard","count":2}],"exclude":[{"class":"surfboard","count":3}]}
+{"prompt":"a photo of a dog right of a bird","tag":"position","include":[{"class":"bird","count":1},{"class":"dog","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a brown suitcase","tag":"colors","include":[{"class":"suitcase","count":1,"color":"brown"}]}
+{"prompt":"a photo of two potted plants","tag":"counting","include":[{"class":"potted plant","count":2}],"exclude":[{"class":"potted plant","count":3}]}
+{"prompt":"a photo of four toasters","tag":"counting","include":[{"class":"toaster","count":4}],"exclude":[{"class":"toaster","count":5}]}
+{"prompt":"a photo of a purple clock and a pink toaster","tag":"color_attr","include":[{"class":"clock","count":1,"color":"purple"},{"class":"toaster","count":1,"color":"pink"}]}
+{"prompt":"a photo of a teddy bear above a boat","tag":"position","include":[{"class":"boat","count":1},{"class":"teddy bear","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a red frisbee and a pink bus","tag":"color_attr","include":[{"class":"frisbee","count":1,"color":"red"},{"class":"bus","count":1,"color":"pink"}]}
+{"prompt":"a photo of a yellow refrigerator and a pink bottle","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"yellow"},{"class":"bottle","count":1,"color":"pink"}]}
+{"prompt":"a photo of four persons","tag":"counting","include":[{"class":"person","count":4}],"exclude":[{"class":"person","count":5}]}
+{"prompt":"a photo of four pizzas","tag":"counting","include":[{"class":"pizza","count":4}],"exclude":[{"class":"pizza","count":5}]}
+{"prompt":"a photo of a bear above a cow","tag":"position","include":[{"class":"cow","count":1},{"class":"bear","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a blue cup and a white microwave","tag":"color_attr","include":[{"class":"cup","count":1,"color":"blue"},{"class":"microwave","count":1,"color":"white"}]}
+{"prompt":"a photo of two refrigerators","tag":"counting","include":[{"class":"refrigerator","count":2}],"exclude":[{"class":"refrigerator","count":3}]}
+{"prompt":"a photo of three forks","tag":"counting","include":[{"class":"fork","count":3}],"exclude":[{"class":"fork","count":4}]}
+{"prompt":"a photo of three couchs","tag":"counting","include":[{"class":"couch","count":3}],"exclude":[{"class":"couch","count":4}]}
+{"prompt":"a photo of three surfboards","tag":"counting","include":[{"class":"surfboard","count":3}],"exclude":[{"class":"surfboard","count":4}]}
+{"prompt":"a photo of a red tennis racket and a pink toaster","tag":"color_attr","include":[{"class":"tennis racket","count":1,"color":"red"},{"class":"toaster","count":1,"color":"pink"}]}
+{"prompt":"a photo of a purple horse and a yellow computer mouse","tag":"color_attr","include":[{"class":"horse","count":1,"color":"purple"},{"class":"computer mouse","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a black sandwich and an orange vase","tag":"color_attr","include":[{"class":"sandwich","count":1,"color":"black"},{"class":"vase","count":1,"color":"orange"}]}
+{"prompt":"a photo of four bears","tag":"counting","include":[{"class":"bear","count":4}],"exclude":[{"class":"bear","count":5}]}
+{"prompt":"a photo of an apple and a parking meter","tag":"two_object","include":[{"class":"apple","count":1},{"class":"parking meter","count":1}]}
+{"prompt":"a photo of a red couch and a white motorcycle","tag":"color_attr","include":[{"class":"couch","count":1,"color":"red"},{"class":"motorcycle","count":1,"color":"white"}]}
+{"prompt":"a photo of a cake below a hair drier","tag":"position","include":[{"class":"hair drier","count":1},{"class":"cake","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a white truck and a green cat","tag":"color_attr","include":[{"class":"truck","count":1,"color":"white"},{"class":"cat","count":1,"color":"green"}]}
+{"prompt":"a photo of a green horse","tag":"colors","include":[{"class":"horse","count":1,"color":"green"}]}
+{"prompt":"a photo of a yellow baseball glove and a black refrigerator","tag":"color_attr","include":[{"class":"baseball glove","count":1,"color":"yellow"},{"class":"refrigerator","count":1,"color":"black"}]}
+{"prompt":"a photo of a pink cake","tag":"colors","include":[{"class":"cake","count":1,"color":"pink"}]}
+{"prompt":"a photo of a bench above a tie","tag":"position","include":[{"class":"tie","count":1},{"class":"bench","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a pink car and a black train","tag":"color_attr","include":[{"class":"car","count":1,"color":"pink"},{"class":"train","count":1,"color":"black"}]}
+{"prompt":"a photo of two traffic lights","tag":"counting","include":[{"class":"traffic light","count":2}],"exclude":[{"class":"traffic light","count":3}]}
+{"prompt":"a photo of a brown fire hydrant and a pink clock","tag":"color_attr","include":[{"class":"fire hydrant","count":1,"color":"brown"},{"class":"clock","count":1,"color":"pink"}]}
+{"prompt":"a photo of two handbags","tag":"counting","include":[{"class":"handbag","count":2}],"exclude":[{"class":"handbag","count":3}]}
+{"prompt":"a photo of a pink bird and a red bottle","tag":"color_attr","include":[{"class":"bird","count":1,"color":"pink"},{"class":"bottle","count":1,"color":"red"}]}
+{"prompt":"a photo of a brown laptop and a purple bowl","tag":"color_attr","include":[{"class":"laptop","count":1,"color":"brown"},{"class":"bowl","count":1,"color":"purple"}]}
+{"prompt":"a photo of a cow and a chair","tag":"two_object","include":[{"class":"cow","count":1},{"class":"chair","count":1}]}
+{"prompt":"a photo of a black tv remote and a red clock","tag":"color_attr","include":[{"class":"tv remote","count":1,"color":"black"},{"class":"clock","count":1,"color":"red"}]}
+{"prompt":"a photo of a black computer mouse and a purple elephant","tag":"color_attr","include":[{"class":"computer mouse","count":1,"color":"black"},{"class":"elephant","count":1,"color":"purple"}]}
+{"prompt":"a photo of a purple tennis racket and an orange traffic light","tag":"color_attr","include":[{"class":"tennis racket","count":1,"color":"purple"},{"class":"traffic light","count":1,"color":"orange"}]}
+{"prompt":"a photo of three knifes","tag":"counting","include":[{"class":"knife","count":3}],"exclude":[{"class":"knife","count":4}]}
+{"prompt":"a photo of a banana and a hair drier","tag":"two_object","include":[{"class":"banana","count":1},{"class":"hair drier","count":1}]}
+{"prompt":"a photo of an orange and a hair drier","tag":"two_object","include":[{"class":"orange","count":1},{"class":"hair drier","count":1}]}
+{"prompt":"a photo of a sports ball left of a clock","tag":"position","include":[{"class":"clock","count":1},{"class":"sports ball","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of two giraffes","tag":"counting","include":[{"class":"giraffe","count":2}],"exclude":[{"class":"giraffe","count":3}]}
+{"prompt":"a photo of an orange cow and a white book","tag":"color_attr","include":[{"class":"cow","count":1,"color":"orange"},{"class":"book","count":1,"color":"white"}]}
+{"prompt":"a photo of four horses","tag":"counting","include":[{"class":"horse","count":4}],"exclude":[{"class":"horse","count":5}]}
+{"prompt":"a photo of four backpacks","tag":"counting","include":[{"class":"backpack","count":4}],"exclude":[{"class":"backpack","count":5}]}
+{"prompt":"a photo of two cats","tag":"counting","include":[{"class":"cat","count":2}],"exclude":[{"class":"cat","count":3}]}
+{"prompt":"a photo of two hot dogs","tag":"counting","include":[{"class":"hot dog","count":2}],"exclude":[{"class":"hot dog","count":3}]}
+{"prompt":"a photo of a skateboard and a bird","tag":"two_object","include":[{"class":"skateboard","count":1},{"class":"bird","count":1}]}
+{"prompt":"a photo of four sheeps","tag":"counting","include":[{"class":"sheep","count":4}],"exclude":[{"class":"sheep","count":5}]}
+{"prompt":"a photo of a purple sports ball","tag":"colors","include":[{"class":"sports ball","count":1,"color":"purple"}]}
+{"prompt":"a photo of a green bus and a purple tennis racket","tag":"color_attr","include":[{"class":"bus","count":1,"color":"green"},{"class":"tennis racket","count":1,"color":"purple"}]}
+{"prompt":"a photo of an oven left of a toaster","tag":"position","include":[{"class":"toaster","count":1},{"class":"oven","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a train below a bench","tag":"position","include":[{"class":"bench","count":1},{"class":"train","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a horse right of a teddy bear","tag":"position","include":[{"class":"teddy bear","count":1},{"class":"horse","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a brown clock and a pink tv","tag":"color_attr","include":[{"class":"clock","count":1,"color":"brown"},{"class":"tv","count":1,"color":"pink"}]}
+{"prompt":"a photo of a dog and a cake","tag":"two_object","include":[{"class":"dog","count":1},{"class":"cake","count":1}]}
+{"prompt":"a photo of a blue bus and an orange cell phone","tag":"color_attr","include":[{"class":"bus","count":1,"color":"blue"},{"class":"cell phone","count":1,"color":"orange"}]}
+{"prompt":"a photo of a pink elephant and an orange couch","tag":"color_attr","include":[{"class":"elephant","count":1,"color":"pink"},{"class":"couch","count":1,"color":"orange"}]}
+{"prompt":"a photo of a scissors right of a backpack","tag":"position","include":[{"class":"backpack","count":1},{"class":"scissors","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a horse below a bicycle","tag":"position","include":[{"class":"bicycle","count":1},{"class":"horse","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a blue refrigerator and a red sports ball","tag":"color_attr","include":[{"class":"refrigerator","count":1,"color":"blue"},{"class":"sports ball","count":1,"color":"red"}]}
+{"prompt":"a photo of a brown suitcase and a red microwave","tag":"color_attr","include":[{"class":"suitcase","count":1,"color":"brown"},{"class":"microwave","count":1,"color":"red"}]}
+{"prompt":"a photo of a surfboard and a boat","tag":"two_object","include":[{"class":"surfboard","count":1},{"class":"boat","count":1}]}
+{"prompt":"a photo of a stop sign right of a vase","tag":"position","include":[{"class":"vase","count":1},{"class":"stop sign","count":1,"position":["right of",0]}]}
+{"prompt":"a photo of a black scissors and a green sink","tag":"color_attr","include":[{"class":"scissors","count":1,"color":"black"},{"class":"sink","count":1,"color":"green"}]}
+{"prompt":"a photo of four fire hydrants","tag":"counting","include":[{"class":"fire hydrant","count":4}],"exclude":[{"class":"fire hydrant","count":5}]}
+{"prompt":"a photo of a yellow toothbrush and a green baseball glove","tag":"color_attr","include":[{"class":"toothbrush","count":1,"color":"yellow"},{"class":"baseball glove","count":1,"color":"green"}]}
+{"prompt":"a photo of a banana below a giraffe","tag":"position","include":[{"class":"giraffe","count":1},{"class":"banana","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a brown kite","tag":"colors","include":[{"class":"kite","count":1,"color":"brown"}]}
+{"prompt":"a photo of a blue refrigerator","tag":"colors","include":[{"class":"refrigerator","count":1,"color":"blue"}]}
+{"prompt":"a photo of a yellow teddy bear and a blue baseball bat","tag":"color_attr","include":[{"class":"teddy bear","count":1,"color":"yellow"},{"class":"baseball bat","count":1,"color":"blue"}]}
+{"prompt":"a photo of a kite above a tv remote","tag":"position","include":[{"class":"tv remote","count":1},{"class":"kite","count":1,"position":["above",0]}]}
+{"prompt":"a photo of a red spoon and an orange donut","tag":"color_attr","include":[{"class":"spoon","count":1,"color":"red"},{"class":"donut","count":1,"color":"orange"}]}
+{"prompt":"a photo of a green potted plant and a purple carrot","tag":"color_attr","include":[{"class":"potted plant","count":1,"color":"green"},{"class":"carrot","count":1,"color":"purple"}]}
+{"prompt":"a photo of four cars","tag":"counting","include":[{"class":"car","count":4}],"exclude":[{"class":"car","count":5}]}
+{"prompt":"a photo of three motorcycles","tag":"counting","include":[{"class":"motorcycle","count":3}],"exclude":[{"class":"motorcycle","count":4}]}
+{"prompt":"a photo of a carrot and a kite","tag":"two_object","include":[{"class":"carrot","count":1},{"class":"kite","count":1}]}
+{"prompt":"a photo of a green laptop and a black baseball bat","tag":"color_attr","include":[{"class":"laptop","count":1,"color":"green"},{"class":"baseball bat","count":1,"color":"black"}]}
+{"prompt":"a photo of a bicycle below a banana","tag":"position","include":[{"class":"banana","count":1},{"class":"bicycle","count":1,"position":["below",0]}]}
+{"prompt":"a photo of a purple teddy bear and a pink tie","tag":"color_attr","include":[{"class":"teddy bear","count":1,"color":"purple"},{"class":"tie","count":1,"color":"pink"}]}
+{"prompt":"a photo of a suitcase and an airplane","tag":"two_object","include":[{"class":"suitcase","count":1},{"class":"airplane","count":1}]}
+{"prompt":"a photo of a red hair drier and an orange computer mouse","tag":"color_attr","include":[{"class":"hair drier","count":1,"color":"red"},{"class":"computer mouse","count":1,"color":"orange"}]}
+{"prompt":"a photo of a bear left of a boat","tag":"position","include":[{"class":"boat","count":1},{"class":"bear","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a white skis","tag":"colors","include":[{"class":"skis","count":1,"color":"white"}]}
+{"prompt":"a photo of two scissorses","tag":"counting","include":[{"class":"scissors","count":2}],"exclude":[{"class":"scissors","count":3}]}
+{"prompt":"a photo of two motorcycles","tag":"counting","include":[{"class":"motorcycle","count":2}],"exclude":[{"class":"motorcycle","count":3}]}
+{"prompt":"a photo of a spoon left of a hair drier","tag":"position","include":[{"class":"hair drier","count":1},{"class":"spoon","count":1,"position":["left of",0]}]}
+{"prompt":"a photo of a yellow bear and a pink snowboard","tag":"color_attr","include":[{"class":"bear","count":1,"color":"yellow"},{"class":"snowboard","count":1,"color":"pink"}]}
+{"prompt":"a photo of a pink banana and a black bicycle","tag":"color_attr","include":[{"class":"banana","count":1,"color":"pink"},{"class":"bicycle","count":1,"color":"black"}]}
+{"prompt":"a photo of a brown toilet and a purple truck","tag":"color_attr","include":[{"class":"toilet","count":1,"color":"brown"},{"class":"truck","count":1,"color":"purple"}]}
+{"prompt":"a photo of a pink tv and a yellow bed","tag":"color_attr","include":[{"class":"tv","count":1,"color":"pink"},{"class":"bed","count":1,"color":"yellow"}]}
+{"prompt":"a photo of two baseball bats","tag":"counting","include":[{"class":"baseball bat","count":2}],"exclude":[{"class":"baseball bat","count":3}]}
+{"prompt":"a photo of a brown skateboard and a green scissors","tag":"color_attr","include":[{"class":"skateboard","count":1,"color":"brown"},{"class":"scissors","count":1,"color":"green"}]}
+{"prompt":"a photo of three spoons","tag":"counting","include":[{"class":"spoon","count":3}],"exclude":[{"class":"spoon","count":4}]}
+{"prompt":"a photo of two donuts","tag":"counting","include":[{"class":"donut","count":2}],"exclude":[{"class":"donut","count":3}]}
+{"prompt":"a photo of two umbrellas","tag":"counting","include":[{"class":"umbrella","count":2}],"exclude":[{"class":"umbrella","count":3}]}
+{"prompt":"a photo of a brown dog and a yellow train","tag":"color_attr","include":[{"class":"dog","count":1,"color":"brown"},{"class":"train","count":1,"color":"yellow"}]}
+{"prompt":"a photo of a red skis","tag":"colors","include":[{"class":"skis","count":1,"color":"red"}]}
+{"prompt":"a photo of a brown bus and a pink bottle","tag":"color_attr","include":[{"class":"bus","count":1,"color":"brown"},{"class":"bottle","count":1,"color":"pink"}]}
+{"prompt":"a photo of a brown pizza and a purple suitcase","tag":"color_attr","include":[{"class":"pizza","count":1,"color":"brown"},{"class":"suitcase","count":1,"color":"purple"}]}
+{"prompt":"a photo of a cow and a banana","tag":"two_object","include":[{"class":"cow","count":1},{"class":"banana","count":1}]}
+{"prompt":"a photo of a baseball bat below a bus","tag":"position","include":[{"class":"bus","count":1},{"class":"baseball bat","count":1,"position":["below",0]}]}
+{"prompt":"a photo of three hair driers","tag":"counting","include":[{"class":"hair drier","count":3}],"exclude":[{"class":"hair drier","count":4}]}
+{"prompt":"a photo of a tie and a bottle","tag":"two_object","include":[{"class":"tie","count":1},{"class":"bottle","count":1}]}
+{"prompt":"a photo of a blue dining table and an orange hair drier","tag":"color_attr","include":[{"class":"dining table","count":1,"color":"blue"},{"class":"hair drier","count":1,"color":"orange"}]}

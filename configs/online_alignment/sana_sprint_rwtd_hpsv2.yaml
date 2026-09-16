@@ -1,0 +1,114 @@
+model:
+  config_path: /opt/tiger/rwtd/Sana/configs/sana_sprint_config/1024ms/SanaSprint_1600M_1024px_allqknorm_bf16_scm_ladd.yaml
+  checkpoint_path: /opt/tiger/rwtd/models/Sana_Sprint_1.6B_1024px/checkpoints/Sana_Sprint_1.6B_1024px.pth
+  text_encoder_path: Efficient-Large-Model/gemma-2-2b-it
+  vae_path: mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+  local_files_only: true
+  resolution: 1024
+  guidance_scale: 4.5
+  num_inference_steps: 1
+  max_timesteps: 1.57080
+  rollout_chunk_size: 2
+  decode_chunk_size: 1
+  gradient_checkpointing: true
+  vae_gradient_checkpointing: true
+  cache_text_embeddings: true
+  text_encoding_batch_size: 8
+  text_embedding_cache_path: /opt/tiger/rwtd/outputs/cache/sana_sprint_gemma_embeddings.pt
+  rebuild_text_embedding_cache: false
+
+lora:
+  rank: 32
+  alpha: 32
+  dropout: 0.0
+  target_modules:
+    - attn.qkv
+    - attn.proj
+    - cross_attn.q_linear
+    - cross_attn.kv_linear
+    - cross_attn.proj
+  init_weights: gaussian
+
+reward:
+  enabled: true
+  provider: hpsv2
+  base_model_path: /opt/tiger/rwtd/Sana/reward_ckpts/open_clip_pytorch_model.bin
+  checkpoint_path: /opt/tiger/rwtd/Sana/reward_ckpts/HPS_v2.1_compressed.pt
+  local_files_only: true
+  batch_size: 2
+  dtype: float32
+
+evaluation:
+  # Keep PickScore as an independent held-out metric while optimizing HPS v2.
+  enabled: true
+  provider: pickscore
+  interval_steps: 10
+  prompt_file: /opt/tiger/rwtd/data/drawbench/alignment_eval.txt
+  prompt_count: null
+  seed: 1234
+  samples_per_prompt: 1
+  prompt_batch_size: 4
+  reward_batch_size: 8
+  model_path: /opt/tiger/rwtd/models/PickScore_v1
+  processor_path: /opt/tiger/rwtd/models/PickScore_v1
+  dtype: float32
+
+features:
+  enabled: true
+  provider: hpsv2
+  names:
+    - hps
+  dtype: float32
+
+objective:
+  name: rwtd
+  current_samples: 24
+  reference_samples: 24
+  matched_noise: false
+  feature_weights:
+    - 1.0
+
+rwtd:
+  coupling: sinkhorn
+  sinkhorn_target: barycentric
+  stochastic_transport: false
+  # Population statistics from 8,160 base SANA-Sprint 1.6B generations:
+  # 1,632 Parti-Prompts x 5 samples, seed 42, CFG 4.5, one step, maxT 1.57080.
+  reward_temperature: 0.5
+  reward_mean: 0.3031447375430634
+  reward_scale: 0.03406016468398281
+  mass_floor: 0.10
+  reference_fraction: 0.15
+  transport_step: 0.20
+  ot_regularization_scale: 0.10
+  minimum_ot_epsilon: 1.0e-4
+  sinkhorn_iterations: 100
+  sinkhorn_tolerance: 1.0e-5
+  displacement_clip: null
+  feature_stats_path: null
+
+optimizer:
+  learning_rate: 1.0e-5
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 0.0
+  epsilon: 1.0e-8
+  max_grad_norm: 1.0
+  scheduler: constant
+  warmup_steps: 0
+
+runtime:
+  prompt_file: /opt/tiger/rwtd/data/pickscore/sfw_train.txt
+  train_batch_size: 1
+  max_train_steps: 5000
+  gradient_accumulation_steps: 8
+  dataloader_num_workers: 0
+  mixed_precision: bf16
+  seed: 42
+
+logging:
+  output_dir: /opt/tiger/rwtd/outputs/sana-sprint-alignment/rwtd-hpsv2
+  logging_steps: 1
+  checkpointing_steps: 100
+  report_to: tensorboard
+  resume_from_checkpoint: null

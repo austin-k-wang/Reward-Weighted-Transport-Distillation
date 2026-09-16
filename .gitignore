@@ -1,0 +1,81 @@
+AGENTS.md
+geneval.md
+gpu.py 
+rwr.md 
+rwtd.md 
+docs/*
+
+# Experiment artifacts and downloaded models
+/outputs/
+/models/
+**/checkpoints/
+**/reward_ckpts/
+**/wandb/
+**/lightning_logs/
+
+
+# Model weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Python caches and build products
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.cache/
+.ipynb_checkpoints/
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+
+# Local research notes and prompt subsets
+/figs-prompts.txt
+/figure-people-animals.txt
+/data/drawbench/drawbench.txt
+
+# One-off experiment orchestration
+/scripts/sweep_*.sh
+/scripts/*trajectory*.sh
+/scripts/generate_*comparison*.sh
+/scripts/eval_*top10.sh
+/scripts/eval_*sweep*.sh
+
+# Best-of-N experiments
+/scripts/geneval_bon.py
+/scripts/parti_prompts_bon.py
+/tests/test_bon_scripts.py
+
+# Ranked-checkpoint evaluation scripts
+/scripts/*top10*
