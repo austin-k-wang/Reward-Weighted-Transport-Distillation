@@ -1,4 +1,17 @@
-# RWTD for One-Step SANA-Sprint
+<div align="center">
+
+# Aligning One-Step Generative Models with Reward-Weighted Transport Distillation
+
+**Austin Wang** · **Ziheng Cheng** · **Lexing Ying**
+
+**ByteDance Seed**
+
+[![arXiv](https://img.shields.io/badge/arXiv-2609.30840-b31b1b.svg)](https://arxiv.org/abs/2609.30840)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow)](https://huggingface.co/collections/austin-k-wang/reward-weighted-transport-distillation-models)
+
+</div>
+
+---
 
 This repository implements Reward-Weighted Transport Distillation (RWTD) for
 online alignment of the one-step SANA-Sprint 1.6B text-to-image model. It
@@ -323,3 +336,16 @@ and absolute-path defaults, including `http_proxy`, `https_proxy`,
 `/opt/tiger/...`, and `/home/tiger/...`. Users must replace these values with
 paths and network settings for their own environment, or provide the
 corresponding environment-variable and `--set` overrides shown above.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{wang2026aligning,
+  title={Aligning One-Step Generative Models with Reward-Weighted Transport Distillation},
+  author={Wang, Austin and Cheng, Ziheng and Ying, Lexing},
+  journal={arXiv preprint arXiv:2609.30840},
+  year={2026}
+}
+```
